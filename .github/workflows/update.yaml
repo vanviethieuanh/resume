@@ -36,10 +36,17 @@ jobs:
           cp ./build/Van_Viet_Hieu_Anh_CV.pdf ./cv.pdf
           cp ./build/Van_Viet_Hieu_Anh_CV.md ./README.md
 
+      - name: Stash untracked files
+        run: |
+          git stash push -- "cv.pdf"
+
       - name: Commit and push changes
         run: |
           git config --global user.email "vanviethieuanh@gmail.com"
           git config --global user.name "vanviethieuanh"
+
+          git add README.md
+          git commit -m "Update README.md"
 
           git fetch origin cv  # Fetch changes from remote cv branch
           git checkout cv       # Switch to cv branch
@@ -48,9 +55,12 @@ jobs:
           # Rebase your changes on top of the remote changes
           git pull --rebase origin cv
 
+          # Pop the stashed changes (restore cv.pdf)
+          git stash pop
+
+          # Add cv.pdf and commit
           git add cv.pdf
-          git add README.md
           git commit -m "Update cv.pdf"
 
-          # Force push the changes to the remote cv branch
+          # Push the changes to the remote cv branch
           git push origin cv
