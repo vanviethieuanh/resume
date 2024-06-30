@@ -52,6 +52,8 @@ jobs:
 
           git stash pop
 
+          git checkout --theirs cv.pdf README.md
+
           git add cv.pdf README.md
           git commit -m "Update cv.pdf"
 
