@@ -51,6 +51,8 @@ jobs:
           git checkout cv       # Switch to cv branch
 
           git stash pop
+
+          git add cv.pdf README.md
           git commit -m "Update cv.pdf"
 
           git fetch origin cv  # Fetch changes from remote cv branch
