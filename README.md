@@ -37,7 +37,7 @@
 ## University of Information Technology - VNUHCM, BS in Computer Science
 
 - Sept 2019 – Nov 2023
-- Thu Duc, Ho Chi Minh City
+- Ho Chi Minh City
 - **GPA**: 8.00/10.00
 
 # Skills
