@@ -1,0 +1,37 @@
+name: Update CV
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.x
+
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Install dependencies
+        run: pip install rendercv
+
+      - name: Update CV
+        run: |
+          rendercv render "cv.yaml" --output-folder-name "build"
+
+      - name: Copy cv.pdf to root directory
+        run: |
+          cp ./build/Van_Viet_Hieu_Anh_CV.pdf ./cv.pdf
+          git checkout cv
+          git add cv.pdf
+          git commit -m "Update cv.pdf"
+          git push
