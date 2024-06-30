@@ -39,22 +39,26 @@ jobs:
           git add cv.pdf README.md
           git stash --include-untracked # Stash untracked files
 
-      - name: Commit and push changes
+      - name: Set up Git configuration
         run: |
           git config --global user.email "vanviethieuanh@gmail.com"
           git config --global user.name "vanviethieuanh"
 
+      - name: Fetch and checkout cv branch
+        run: |
           git fetch origin cv  # Fetch changes from remote cv branch
           git checkout cv       # Switch to cv branch
-          git reset --hard origin/cv  # Reset local branch to match remote (optional, if needed)
 
-          # Rebase your changes on top of the remote changes
-          git pull --rebase origin cv
+      - name: Reset local branch (if needed)
+        run: |
+          git reset --hard origin/cv  # Reset local branch to match remote
 
-          # Apply the stashed changes
-          git stash pop
+      - name: Rebase and apply stashed changes
+        run: |
+          git pull --rebase origin cv  # Rebase your changes on top of the remote changes
+          git stash pop  # Apply the stashed changes
 
+      - name: Commit and push changes
+        run: |
           git commit -m "Update cv.pdf"
-
-          # Force push the changes to the remote cv branch
-          git push origin cv
+          git push origin cv  # Force push the changes to the remote cv branch
