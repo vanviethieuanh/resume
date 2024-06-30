@@ -50,7 +50,7 @@ jobs:
           git stash save
           git checkout cv       # Switch to cv branch
 
-          git stash pop
+          git stash apply --quiet
 
           git checkout --theirs cv.pdf README.md
 
