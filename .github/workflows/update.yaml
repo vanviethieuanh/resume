@@ -43,10 +43,9 @@ jobs:
           git config --global user.email "vanviethieuanh@gmail.com"
           git config --global user.name "vanviethieuanh"
 
-          git add cv.pdf README.md
-
       - name: Fetch and checkout cv branch
         run: |
+          git fetch origin cv
           git checkout cv       # Switch to cv branch
           git commit -m "Update cv.pdf"
 
