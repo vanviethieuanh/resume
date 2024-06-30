@@ -1,0 +1,92 @@
+cv:
+  name: Van Viet Hieu Anh
+  location: Binh Thanh, Ho Chi Minh City
+  email: vanviethieuanh@gmail.com
+  phone: +84 946 378 852
+  website: https://vanviethieuanh.github.io/dev/
+  social_networks:
+    - network: LinkedIn
+      username: vanviethieuanh
+    - network: GitHub
+      username: vanviethieuanh
+  sections:
+    Experiences:
+      - company: Netcompany
+        position: Consultant
+        start_date: 2022-06
+        end_date: present
+        location: Ho Chi Minh City
+        highlights:
+          - Designed Terraform modules for secure and efficient implementation processes. Reported bugs in Azure Portal for Microsoft.
+          - Developed and supported the management of resources in dozens of Azure Subscriptions and hundreds of Entra ID Applications.
+          - Migrated dozens of repositories from using AWS resources to using Azure resources, all in Javascript/Typescript codebases.
+          - Reviewed, supported, and wrote guides for Terraform development.
+          - Developed and refactored Azure DevOps pipeline templates.
+          - Configured Keycloak for SSO - OIDC.
+          - Developed tools to analyze over 100 repositories in Azure DevOps.
+      - company: UIT (VNUHCM) - Competitive Programming Contest
+        position: System Operator
+        start_date: 2019-09
+        end_date: 2020-12
+        location: Ho Chi Minh City
+        highlights:
+          - Configured and maintained the system for the contest.
+
+    Certifications:
+      - bullet: "**AZ900 - Azure Fundamentals** - Microsoft"
+      - bullet: "**Computational Thinking for Problem Solving** - University of Pennsylvania"
+
+    Education:
+      - institution: University of Information Technology - VNUHCM
+        area: Computer Science
+        degree: BS
+        start_date: 2019-09
+        end_date: 2023-11
+        location: Thu Duc, Ho Chi Minh City
+        highlights:
+          - "**GPA**: 8.00/10.00"
+
+    Skills:
+      - "**Programming**: Python, JavaScript, TypeScript, C#"
+      - "**IaC**: Terraform"
+      - "**Cloud**: Azure Services"
+      - "**DevOps**: Azure DevOps, Jenkins"
+      - "**Experienced** in working in an international environment across different time zones."
+
+design:
+  theme: classic
+  color: "#884A39"
+  disable_external_link_icons: false
+  disable_last_updated_date: false
+  last_updated_date_style: Last updated in TODAY
+  disable_page_numbering: false
+  page_numbering_style: NAME - Page PAGE_NUMBER of TOTAL_PAGES
+  font: Source Sans 3
+  font_size: 10pt
+  header_font_size: "30 pt"
+  page_size: a4paper
+  show_timespan_in:
+    - "Experience"
+  text_alignment: justified
+  margins:
+    page:
+      bottom: 2 cm
+      left: 2 cm
+      right: 2 cm
+      top: 2 cm
+    section_title:
+      bottom: 0.2 cm
+      top: 0.3 cm
+    entry_area:
+      date_and_location_width: 4.5 cm
+      education_degree_width: 1 cm
+      left_and_right: 0.2 cm
+      vertical_between: 0.2 cm
+    highlights_area:
+      left: 0.4 cm
+      top: 0.10 cm
+      vertical_between_bullet_points: 0.10 cm
+    header:
+      bottom: 0.3 cm
+      horizontal_between_connections: 0.5 cm
+      vertical_between_name_and_connections: 0.3 cm
