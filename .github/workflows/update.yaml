@@ -51,7 +51,7 @@ jobs:
 
       - name: Rebase and apply stashed changes
         run: |
-          git stash pop  # Apply the stashed changes
+          git stash pop --strategy=ours # Apply the stashed changes
 
       - name: Commit and push changes
         run: |
