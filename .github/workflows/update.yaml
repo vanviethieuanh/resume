@@ -34,12 +34,12 @@ jobs:
       - name: Copy cv.pdf to root directory
         run: cp ./build/Van_Viet_Hieu_Anh_CV.pdf ./cv.pdf
 
-      - name: Add cv.pdf
-        run: git add cv.pdf
-
       - name: Commit and push changes
         run: |
           git config --global user.email "vanviethieuanh@gmail.com"
           git config --global user.name "vanviethieuanh"
+
+          git checkout cv          
+          git add cv.pdf
           git commit -m "Update cv.pdf"
-          git push origin main:cv
+          git push
