@@ -51,6 +51,7 @@ jobs:
           git checkout cv       # Switch to cv branch
 
       - name: Apply changes
+        if: ${{ always() }}
         run: |
           git stash apply --quiet
 
