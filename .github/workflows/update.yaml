@@ -37,7 +37,6 @@ jobs:
           cp ./build/Van_Viet_Hieu_Anh_CV.md ./README.md
 
           git add cv.pdf README.md
-          git stash --include-untracked # Stash untracked files
 
       - name: Set up Git configuration
         run: |
@@ -49,12 +48,6 @@ jobs:
           git fetch origin cv  # Fetch changes from remote cv branch
           git checkout cv       # Switch to cv branch
           git pull origin cv    # Pull changes from remote cv branch
-
-      - name: Rebase and apply stashed changes
-        run: |
-          git add README.md cv.pdf
-          git commit -a -m "Update cv.pdf"
-          git stash pop # Apply the stashed changes
 
       - name: Commit and push changes
         run: |
