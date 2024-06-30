@@ -45,11 +45,9 @@ jobs:
 
       - name: Fetch and checkout cv branch
         run: |
-          git fetch origin cv  # Fetch changes from remote cv branch
           git checkout cv       # Switch to cv branch
-          git pull origin cv    # Pull changes from remote cv branch
-
-      - name: Commit and push changes
-        run: |
+          git add cv.pdf README.md
           git commit -m "Update cv.pdf"
-          git push origin cv  # Force push the changes to the remote cv branch
+
+          git fetch origin cv  # Fetch changes from remote cv branch
+          git pull origin cv --ours    # Pull changes from remote cv branch
