@@ -34,6 +34,10 @@ jobs:
       - name: Copy cv.pdf to root directory
         run: |
           cp ./build/Van_Viet_Hieu_Anh_CV.pdf ./cv.pdf
+          cp ./build/Van_Viet_Hieu_Anh_CV.md ./README.md
+
+          git add cv.pdf README.md
+          git stash --include-untracked # Stash untracked files
 
       - name: Commit and push changes
         run: |
@@ -47,7 +51,9 @@ jobs:
           # Rebase your changes on top of the remote changes
           git pull --rebase origin cv
 
-          git add cv.pdf
+          # Apply the stashed changes
+          git stash pop
+
           git commit -m "Update cv.pdf"
 
           # Force push the changes to the remote cv branch
