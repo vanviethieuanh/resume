@@ -46,7 +46,11 @@ jobs:
       - name: Fetch and checkout cv branch
         run: |
           git fetch origin cv
+
+          git stash save
           git checkout cv       # Switch to cv branch
+
+          git stash pop
           git commit -m "Update cv.pdf"
 
           git fetch origin cv  # Fetch changes from remote cv branch
