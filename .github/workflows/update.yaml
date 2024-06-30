@@ -39,8 +39,15 @@ jobs:
           git config --global user.email "vanviethieuanh@gmail.com"
           git config --global user.name "vanviethieuanh"
 
-          git pull origin cv
-          git checkout cv
+          git fetch origin cv  # Fetch changes from remote cv branch
+          git checkout cv       # Switch to cv branch
+          git reset --hard origin/cv  # Reset local branch to match remote (optional, if needed)
+
+          # Rebase your changes on top of the remote changes
+          git pull --rebase origin cv
+
           git add cv.pdf
           git commit -m "Update cv.pdf"
-          git push
+
+          # Force push the changes to the remote cv branch
+          git push origin cv
