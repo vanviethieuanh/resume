@@ -52,7 +52,7 @@ jobs:
 
       - name: Rebase and apply stashed changes
         run: |
-          git add .
+          git add README.md cv.pdf
           git commit -a -m "Update cv.pdf"
           git stash pop # Apply the stashed changes
 
