@@ -31,8 +31,10 @@ jobs:
       - name: Copy cv.pdf to root directory
         run: cp ./build/Van_Viet_Hieu_Anh_CV.pdf ./cv.pdf
 
-      - name: Checkout cv branch
-        run: git checkout cv
+      - name: Checkout to cv branch
+        uses: actions/checkout@v2
+        with:
+          ref: cv
 
       - name: Add cv.pdf
         run: git add cv.pdf
