@@ -12,7 +12,7 @@ permissions:
   contents: write
 
 jobs:
-  build:
+  Update:
     runs-on: ubuntu-latest
 
     steps:
@@ -49,13 +49,8 @@ jobs:
           git fetch origin cv  # Fetch changes from remote cv branch
           git checkout cv       # Switch to cv branch
 
-      - name: Reset local branch (if needed)
-        run: |
-          git reset --hard origin/cv  # Reset local branch to match remote
-
       - name: Rebase and apply stashed changes
         run: |
-          git pull --rebase origin cv  # Rebase your changes on top of the remote changes
           git stash pop  # Apply the stashed changes
 
       - name: Commit and push changes
