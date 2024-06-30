@@ -43,15 +43,19 @@ jobs:
           git config --global user.email "vanviethieuanh@gmail.com"
           git config --global user.name "vanviethieuanh"
 
-      - name: Fetch and checkout cv branch
+      - name: Fetch, Stash and checkout cv branch
         run: |
           git fetch origin cv
 
           git stash save
           git checkout cv       # Switch to cv branch
 
+      - name: Apply changes
+        run: |
           git stash apply --quiet
 
+      - name: Merge changes
+        run: |
           git checkout --theirs cv.pdf README.md
 
           git add cv.pdf README.md
