@@ -32,7 +32,9 @@ jobs:
           rendercv render "cv.yaml" --output-folder-name "build"
 
       - name: Copy cv.pdf to root directory
-        run: cp ./build/Van_Viet_Hieu_Anh_CV.pdf ./cv.pdf
+        run: |
+          cp ./build/Van_Viet_Hieu_Anh_CV.pdf ./cv.pdf
+          cp ./build/Van_Viet_Hieu_Anh_CV.md ./README.md
 
       - name: Commit and push changes
         run: |
@@ -47,6 +49,7 @@ jobs:
           git pull --rebase origin cv
 
           git add cv.pdf
+          git add README.md
           git commit -m "Update cv.pdf"
 
           # Force push the changes to the remote cv branch
