@@ -46,6 +46,8 @@ jobs:
 
       - name: Fetch and checkout cv branch
         run: |
+          git fetch origin cv  # Fetch changes from remote cv branch
+          git checkout cv       # Switch to cv branch
           git pull origin cv    # Pull changes from remote cv branch
 
       - name: Rebase and apply stashed changes
