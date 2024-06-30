@@ -22,7 +22,7 @@ jobs:
           python-version: 3.x
 
       - name: Checkout code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4.1.7
 
       - name: Install dependencies
         run: pip install rendercv
@@ -39,6 +39,7 @@ jobs:
           git config --global user.email "vanviethieuanh@gmail.com"
           git config --global user.name "vanviethieuanh"
 
+          git pull origin cv
           git checkout cv
           git add cv.pdf
           git commit -m "Update cv.pdf"
