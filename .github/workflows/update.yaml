@@ -27,9 +27,18 @@ jobs:
       - name: Update CV
         run: |
           rendercv render "cv.yaml" --output-folder-name "build"
+          if [ ! -f "./build/Van_Viet_Hieu_Anh_CV.pdf" ]; then
+            echo "CV file not found!"
+            exit 1
+          fi
 
       - name: Copy cv.pdf to root directory
-        run: cp ./build/Van_Viet_Hieu_Anh_CV.pdf ./cv.pdf
+        run: |
+          cp ./build/Van_Viet_Hieu_Anh_CV.pdf ./cv.pdf
+          if [ ! -f "./cv.pdf" ]; then
+            echo "CV file not copied correctly!"
+            exit 1
+          fi
 
       - name: Checkout to cv branch
         uses: actions/checkout@v2
@@ -37,7 +46,13 @@ jobs:
           ref: cv
 
       - name: Add cv.pdf
-        run: git add cv.pdf
+        run: |
+          if [ -f "./cv.pdf" ]; then
+            git add cv.pdf
+          else
+            echo "CV file not found in cv branch!"
+            exit 1
+          fi
 
       - name: Commit and push changes
         run: |
