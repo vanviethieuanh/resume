@@ -12,10 +12,11 @@ cv:
       username: vanviethieuanh
 
   sections:
-    Summary: >
-      Passionate about cloud services and DevOps, I am a consultant with experience in Terraform, Azure services, Azure Devops and C#.
-      I love developing and maintaining cloud infrastructure and am always eager to learn new technologies and tools.
-      I'm seeking opportunities to work in a dynamic environment where I can apply my skills and grow professionally.
+    Summary:
+      - >
+        Passionate about cloud services and DevOps, I am a consultant with experience in Terraform, Azure services, Azure Devops and C#.
+        I love developing and maintaining cloud infrastructure and am always eager to learn new technologies and tools.
+        I'm seeking opportunities to work in a dynamic environment where I can apply my skills and grow professionally.
 
     Experiences:
       - company: Netcompany - NLP
