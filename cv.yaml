@@ -4,16 +4,18 @@ cv:
   email: vanviethieuanh@gmail.com
   phone: +84 946 378 852
   website: https://vanviethieuanh.github.io/dev/
+
   social_networks:
     - network: LinkedIn
       username: vanviethieuanh
     - network: GitHub
       username: vanviethieuanh
+
   sections:
     Experiences:
-      - company: Netcompany
+      - company: Netcompany - NLP
         position: Consultant
-        start_date: 2022-06
+        start_date: 2023-01
         end_date: present
         location: Ho Chi Minh City
         highlights:
@@ -22,8 +24,18 @@ cv:
           - Migrated dozens of repositories from using AWS resources to using Azure resources, all in Javascript/Typescript codebases.
           - Reviewed, supported, and wrote guides for Terraform development.
           - Developed and refactored Azure DevOps pipeline templates.
+          - Developed tools to analyze hundreds repositories in Azure DevOps.
+
+      - company: Netcompany - Topdanmark
+        position: Consultant
+        start_date: 2022-06
+        end_date: 2023-01
+        location: Ho Chi Minh City
+        highlights:
           - Configured Keycloak for SSO - OIDC.
-          - Developed tools to analyze over 100 repositories in Azure DevOps.
+          - Maintained and developed .NET Core services.
+          - Run performance tests on systems (JMeter).
+
       - company: UIT (VNUHCM) - Competitive Programming Contest
         position: System Operator
         start_date: 2019-09
