@@ -64,3 +64,8 @@ Passionate about cloud services and DevOps, I am a consultant with experience in
 
 **Experienced** in working in an international environment across different time zones.
 
+# Side Projects
+
+"See all my side projects which related to Data Science, Machine Learning, Design, Mathematics, and more at" "[my website](https://vanviethieuanh.github.io/dev/) or [my Github](https://github.com/vanviethieuanh)."
+
+
