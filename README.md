@@ -10,17 +10,24 @@
 
 # Experiences
 
-## Netcompany, Consultant
+## Netcompany - NLP, Consultant
 
-- June 2022 – present
+- Jan 2023 – present
 - Ho Chi Minh City
 - Designed Terraform modules for secure and efficient implementation processes. Reported bugs in Azure Portal for Microsoft.
 - Developed and supported the management of resources in dozens of Azure Subscriptions and hundreds of Entra ID Applications.
 - Migrated dozens of repositories from using AWS resources to using Azure resources, all in Javascript/Typescript codebases.
 - Reviewed, supported, and wrote guides for Terraform development.
 - Developed and refactored Azure DevOps pipeline templates.
+- Developed tools to analyze hundreds repositories in Azure DevOps.
+
+## Netcompany - Topdanmark, Consultant
+
+- June 2022 – Jan 2023
+- Ho Chi Minh City
 - Configured Keycloak for SSO - OIDC.
-- Developed tools to analyze over 100 repositories in Azure DevOps.
+- Maintained and developed .NET Core services.
+- Run performance tests on systems (JMeter).
 
 ## UIT (VNUHCM) - Competitive Programming Contest, System Operator
 
