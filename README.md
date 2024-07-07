@@ -8,6 +8,11 @@
 - GitHub: [vanviethieuanh](https://github.com/vanviethieuanh)
 
 
+# Summary
+
+Passionate about cloud services and DevOps, I am a consultant with experience in Terraform, Azure services, Azure Devops and C#. I love developing and maintaining cloud infrastructure and am always eager to learn new technologies and tools. I'm seeking opportunities to work in a dynamic environment where I can apply my skills and grow professionally.
+
+
 # Experiences
 
 ## Netcompany - NLP, Consultant
@@ -21,13 +26,13 @@
 - Developed and refactored Azure DevOps pipeline templates.
 - Developed tools to analyze hundreds repositories in Azure DevOps.
 
-## Netcompany - Topdanmark, Consultant
+## Netcompany - Flexdanmark, Consultant
 
 - June 2022 – Jan 2023
 - Ho Chi Minh City
 - Configured Keycloak for SSO - OIDC.
 - Maintained and developed .NET Core services.
-- Run performance tests on systems (JMeter).
+- Test performance and security of the system.
 
 ## UIT (VNUHCM) - Competitive Programming Contest, System Operator
 
