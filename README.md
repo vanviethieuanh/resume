@@ -60,7 +60,7 @@ Passionate about cloud services and DevOps, I am a consultant with experience in
 
 **Cloud**: Azure Services
 
-**DevOps**: Azure DevOps, Jenkins
+**DevOps**: Azure DevOps, Jenkins, PowerShell, Bash, Groovy
 
 **Experienced** in working in an international environment across different time zones.
 
