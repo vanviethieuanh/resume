@@ -14,7 +14,7 @@ cv:
   sections:
     Summary:
       - >
-        Passionate about cloud services and DevOps, I am a consultant with experience in Terraform, Azure services, Azure Devops and C#.
+        Passionate about cloud services and DevOps, I am a consultant with experience in Terraform, Azure services, Azure DevOps, and C#.
         I love developing and maintaining cloud infrastructure and am always eager to learn new technologies and tools.
         I'm seeking opportunities to work in a dynamic environment where I can apply my skills and grow professionally.
 
@@ -30,7 +30,7 @@ cv:
           - Migrated dozens of repositories from using AWS resources to using Azure resources, all in Javascript/Typescript codebases.
           - Reviewed, supported, and wrote guides for Terraform development.
           - Developed and refactored Azure DevOps pipeline templates.
-          - Developed tools to analyze hundreds repositories in Azure DevOps.
+          - Developed tools to analyze hundreds of repositories in Azure DevOps.
 
       - company: Netcompany - Flexdanmark
         position: Consultant
@@ -73,8 +73,8 @@ cv:
 
     Side_Projects:
       - >
-        See all my side projects which related to Data Science, Machine Learning, Design, Mathematics, and more at
-        [my website](https://vanviethieuanh.github.io/dev/) or [my Github](https://github.com/vanviethieuanh).
+        See all my side projects related to Data Science, Machine Learning, Design, Mathematics, and more at
+        [my website](https://vanviethieuanh.github.io/dev/) or [Github](https://github.com/vanviethieuanh).
 
 design:
   theme: classic
