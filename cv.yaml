@@ -98,10 +98,10 @@ design:
   text_alignment: justified
   margins:
     page:
-      bottom: 2 cm
+      bottom: 2.5 cm
       left: 2 cm
       right: 2 cm
-      top: 2 cm
+      top: 2.5 cm
     section_title:
       bottom: 0.2 cm
       top: 0.3 cm
