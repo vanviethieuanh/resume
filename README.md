@@ -10,7 +10,7 @@
 
 # Summary
 
-Passionate about cloud services and DevOps, I am a consultant with experience in Terraform, Azure services, Azure DevOps, and C#. I love developing and maintaining cloud infrastructure and am always eager to learn new technologies and tools. I'm seeking opportunities to work in a dynamic environment where I can apply my skills and grow professionally.
+Experienced DevOps consultant with a strong focus on cloud services and infrastructure automation. Proficient in Terraform, Azure Services, Azure DevOps, and C#, with deep expertise in OAuth and OIDC configurations. Passionate about developing scalable and secure systems, and eager to contribute to dynamic environments leveraging cutting-edge technologies.
 
 
 # Experiences
@@ -19,26 +19,33 @@ Passionate about cloud services and DevOps, I am a consultant with experience in
 
 - Jan 2023 – present
 - Ho Chi Minh City
-- Designed Terraform modules for secure and efficient implementation processes. Reported bugs in Azure Portal for Microsoft.
-- Developed and supported the management of resources in dozens of Azure Subscriptions and hundreds of Entra ID Applications.
-- Migrated dozens of repositories from using AWS resources to using Azure resources, all in Javascript/Typescript codebases.
-- Reviewed, supported, and wrote guides for Terraform development.
-- Developed and refactored Azure DevOps pipeline templates.
-- Developed tools to analyze hundreds of repositories in Azure DevOps.
+- Designed and implemented robust Terraform modules for secure, scalable deployments. Reported significant bugs in Azure Portal to Microsoft, contributing to platform improvements.
+- Managed resources across multiple Azure subscriptions and applications, ensuring compliance and operational excellence.
+- Migrated and optimized repositories from AWS to Azure, leveraging JavaScript/TypeScript for seamless integration.
+- Debugged and optimized Azure networking configurations, delivering enhanced performance and stability.
+- Reviewed, authored, and recommended Terraform best practices to enhance security and enforce appropriate resource access permissions from the development side.
+- Developed and refined Azure DevOps pipeline templates to accelerate CI/CD processes.
 
 ## Netcompany - Flexdanmark, Consultant
 
 - June 2022 – Jan 2023
 - Ho Chi Minh City
-- Configured Keycloak for SSO - OIDC.
-- Maintained and developed .NET Core services.
-- Test performance and security of the system.
+- Configured Keycloak for SSO and OIDC, ensuring secure and seamless user authentication.
+- Conducted performance and security testing to enhance system robustness.
+
+## Personal Homelab, System Operator
+
+- June 2024 – present
+- Architected a hybrid cluster network using an old laptop and cloud VMs to create a resilient home server.
+- Implemented and managed WireGuard for secure VPN connections between nodes.
+- Deployed and maintained Kubernetes clusters using k3s, leveraging Helm for efficient application deployments.
 
 ## UIT (VNUHCM) - Competitive Programming Contest, System Operator
 
 - Sept 2019 – Dec 2020
 - Ho Chi Minh City
-- Configured and maintained the system for the contest.
+- Configured and maintained contest systems using Docker, Nginx, and PHP for seamless event execution.
+- Ensured system reliability under high-demand scenarios.
 
 # Certifications
 
@@ -46,7 +53,7 @@ Passionate about cloud services and DevOps, I am a consultant with experience in
 - **Computational Thinking for Problem Solving** - University of Pennsylvania
 # Education
 
-## University of Information Technology - VNUHCM, BS in Computer Science
+## University of Information Technology - VNUHCM, Bachelor of Science in Computer Science
 
 - Sept 2019 – Nov 2023
 - Ho Chi Minh City
@@ -56,16 +63,16 @@ Passionate about cloud services and DevOps, I am a consultant with experience in
 
 **Programming**: Python, JavaScript, TypeScript, C#
 
-**IaC**: Terraform
+**Infrastructure as Code (IaC)**: Terraform
 
-**Cloud**: Azure Services
+**Cloud Platforms**: Azure Services
 
-**DevOps**: Azure DevOps, Jenkins, PowerShell, Bash, Groovy
+**DevOps Tools**: Azure DevOps, Jenkins, PowerShell, Bash, Groovy
 
-**Experienced** in working in an international environment across different time zones.
+**Cross-functional Collaboration**: Proven success in international environments and across time zones.
 
 # Side Projects
 
-See all my side projects related to Data Science, Machine Learning, Design, Mathematics, and more at [my website](https://vanviethieuanh.github.io/dev/) or [Github](https://github.com/vanviethieuanh).
+Explore my side projects in Data Science, Machine Learning, Mathematics, and more on [my website](https://vanviethieuanh.github.io/dev/) or [GitHub](https://github.com/vanviethieuanh).
 
 
