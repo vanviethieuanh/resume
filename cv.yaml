@@ -14,7 +14,7 @@ cv:
   sections:
     Summary:
       - >
-        Experienced DevOps consultant with a strong focus on cloud services and infrastructure automation. Proficient in Terraform, Azure Services, Azure DevOps, and C#, with deep expertise in OAuth and OIDC configurations. Passionate about developing scalable and secure systems, and eager to contribute to dynamic environments leveraging cutting-edge technologies.
+        Experienced DevOps consultant with a strong focus on cloud services and infrastructure automation. Proficient in Terraform, Azure Services, Azure DevOps, and Python, with deep expertise in OAuth and OIDC configurations. Passionate about developing scalable and secure systems, and eager to contribute to dynamic environments leveraging cutting-edge technologies.
 
     Experiences:
       - company: Netcompany - NLP
@@ -23,12 +23,17 @@ cv:
         end_date: present
         location: Ho Chi Minh City
         highlights:
-          - Designed and implemented robust Terraform modules for secure, scalable deployments. Reported significant bugs in Azure Portal to Microsoft, contributing to platform improvements.
-          - Managed resources across multiple Azure subscriptions and applications, ensuring compliance and operational excellence.
-          - Migrated and optimized repositories from AWS to Azure, leveraging JavaScript/TypeScript for seamless integration.
-          - Debugged and optimized Azure networking configurations, delivering enhanced performance and stability.
-          - Reviewed, authored, and recommended Terraform best practices to enhance security and enforce appropriate resource access permissions from the development side.
-          - Developed and refined Azure DevOps pipeline templates to accelerate CI/CD processes.
+          - "**Infrastructure Automation and Management**":
+              - Designed and implemented robust Terraform modules for secure, scalable deployments.
+              - Reviewed, authored, and recommended Terraform best practices to enhance security and enforce appropriate resource access permissions from the development side.
+              - Managed resources across multiple Azure subscriptions and applications, ensuring compliance and operational excellence.
+          - "**Cloud Migration and Optimization**":
+              - Migrated and optimized repositories from AWS to Azure, leveraging JavaScript/TypeScript for seamless integration.
+              - Debugged and optimized Azure networking configurations, delivering enhanced performance and stability.
+          - "**CI/CD and Process Improvement**":
+              - Developed and refined Azure DevOps pipeline templates to accelerate CI/CD processes.
+          - "**Platform Feedback and Enhancements**":
+              - Reported significant bugs in Azure Portal to Microsoft, contributing to platform improvements.
 
       - company: Netcompany - Flexdanmark
         position: Consultant
