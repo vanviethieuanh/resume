@@ -88,9 +88,7 @@ design:
   color: "#884A39"
   disable_external_link_icons: false
   disable_last_updated_date: false
-  last_updated_date_style: Last updated in TODAY
   disable_page_numbering: false
-  page_numbering_style: NAME - Page PAGE_NUMBER of TOTAL_PAGES
   font: Source Sans 3
   font_size: 10pt
   header_font_size: "30 pt"
