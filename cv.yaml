@@ -23,17 +23,11 @@ cv:
         end_date: present
         location: Ho Chi Minh City
         highlights:
-          - "**Infrastructure Automation and Management**":
-              - Designed and implemented robust Terraform modules for secure, scalable deployments.
-              - Reviewed, authored, and recommended Terraform best practices to enhance security and enforce appropriate resource access permissions from the development side.
-              - Managed resources across multiple Azure subscriptions and applications, ensuring compliance and operational excellence.
-          - "**Cloud Migration and Optimization**":
-              - Migrated and optimized repositories from AWS to Azure, leveraging JavaScript/TypeScript for seamless integration.
-              - Debugged and optimized Azure networking configurations, delivering enhanced performance and stability.
-          - "**CI/CD and Process Improvement**":
-              - Developed and refined Azure DevOps pipeline templates to accelerate CI/CD processes.
-          - "**Platform Feedback and Enhancements**":
-              - Reported significant bugs in Azure Portal to Microsoft, contributing to platform improvements.
+          - Designed and implemented Terraform modules for secure, scalable deployments, and authored best practices to enhance security and resource access.
+          - Managed Azure resources across multiple subscriptions and applications, ensuring compliance and performance optimization.
+          - Migrated repositories from AWS to Azure, integrating and optimizing with JavaScript/TypeScript.
+          - Refined Azure networking and developed pipeline templates to streamline CI/CD processes.
+          - Reported impactful Azure Portal bugs to Microsoft.
 
       - company: Netcompany - Flexdanmark
         position: Consultant
@@ -41,17 +35,15 @@ cv:
         end_date: 2023-01
         location: Ho Chi Minh City
         highlights:
-          - Configured Keycloak for SSO and OIDC, ensuring secure and seamless user authentication.
-          - Conducted performance and security testing to enhance system robustness.
+          - Configured Keycloak for SSO and OIDC to secure and streamline authentication.
+          - Conducted system performance testing.
 
       - company: Personal Homelab
         position: System Operator
         start_date: 2024-06
         end_date: present
         highlights:
-          - Architected a hybrid cluster network using an old laptop and cloud VMs to create a resilient home server.
-          - Implemented and managed WireGuard for secure VPN connections between nodes.
-          - Deployed and maintained Kubernetes clusters using k3s, leveraging Helm for efficient application deployments.
+          - Built a hybrid cluster using an old laptop and cloud VMs, integrating WireGuard for secure VPN and Kubernetes (k3s) with Helm for efficient deployments.
 
       - company: UIT (VNUHCM) - Competitive Programming Contest
         position: System Operator
@@ -59,8 +51,7 @@ cv:
         end_date: 2020-12
         location: Ho Chi Minh City
         highlights:
-          - Configured and maintained contest systems using Docker, Nginx, and PHP for seamless event execution.
-          - Ensured system reliability under high-demand scenarios.
+          - Configured and maintained contest systems with Docker, Nginx, and PHP, ensuring reliability during high-demand events.
 
     Certifications:
       - bullet: "**AZ900 - Azure Fundamentals** - Microsoft"
