@@ -112,7 +112,7 @@ design:
       vertical_between: 0.2 cm
     highlights_area:
       left: 0.4 cm
-      top: 0.10 cm
+      top: 0.12 cm
       vertical_between_bullet_points: 0.10 cm
     header:
       bottom: 0.3 cm
