@@ -53,7 +53,7 @@ Experienced DevOps consultant with a strong focus on cloud services and infrastr
 - **Computational Thinking for Problem Solving** - University of Pennsylvania
 # Education
 
-## University of Information Technology - VNUHCM, Bachelor of Science in Computer Science
+## University of Information Technology - VNUHCM, BS in Computer Science
 
 - Sept 2019 – Nov 2023
 - Ho Chi Minh City
