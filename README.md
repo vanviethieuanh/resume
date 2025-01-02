@@ -10,7 +10,7 @@
 
 # Summary
 
-Experienced DevOps consultant with a strong focus on cloud services and infrastructure automation. Proficient in Terraform, Azure Services, Azure DevOps, and C#, with deep expertise in OAuth and OIDC configurations. Passionate about developing scalable and secure systems, and eager to contribute to dynamic environments leveraging cutting-edge technologies.
+Experienced DevOps consultant with a strong focus on cloud services and infrastructure automation. Proficient in Terraform, Azure Services, Azure DevOps, and Python, with deep expertise in OAuth and OIDC configurations. Passionate about developing scalable and secure systems, and eager to contribute to dynamic environments leveraging cutting-edge technologies.
 
 
 # Experiences
@@ -19,33 +19,29 @@ Experienced DevOps consultant with a strong focus on cloud services and infrastr
 
 - Jan 2023 – present
 - Ho Chi Minh City
-- Designed and implemented robust Terraform modules for secure, scalable deployments. Reported significant bugs in Azure Portal to Microsoft, contributing to platform improvements.
-- Managed resources across multiple Azure subscriptions and applications, ensuring compliance and operational excellence.
-- Migrated and optimized repositories from AWS to Azure, leveraging JavaScript/TypeScript for seamless integration.
-- Debugged and optimized Azure networking configurations, delivering enhanced performance and stability.
-- Reviewed, authored, and recommended Terraform best practices to enhance security and enforce appropriate resource access permissions from the development side.
-- Developed and refined Azure DevOps pipeline templates to accelerate CI/CD processes.
+- Designed and implemented Terraform modules for secure, scalable deployments, and authored best practices to enhance security and resource access.
+- Managed Azure resources across multiple subscriptions and applications, ensuring compliance and performance optimization.
+- Migrated repositories from AWS to Azure, integrating and optimizing with JavaScript/TypeScript.
+- Refined Azure networking and developed pipeline templates to streamline CI/CD processes.
+- Reported impactful Azure Portal bugs to Microsoft.
 
 ## Netcompany - Flexdanmark, Consultant
 
 - June 2022 – Jan 2023
 - Ho Chi Minh City
-- Configured Keycloak for SSO and OIDC, ensuring secure and seamless user authentication.
-- Conducted performance and security testing to enhance system robustness.
+- Configured Keycloak for SSO and OIDC to secure and streamline authentication.
+- Conducted system performance testing.
 
 ## Personal Homelab, System Operator
 
 - June 2024 – present
-- Architected a hybrid cluster network using an old laptop and cloud VMs to create a resilient home server.
-- Implemented and managed WireGuard for secure VPN connections between nodes.
-- Deployed and maintained Kubernetes clusters using k3s, leveraging Helm for efficient application deployments.
+- Built a hybrid cluster using an old laptop and cloud VMs, integrating WireGuard for secure VPN and Kubernetes (k3s) with Helm for efficient deployments.
 
 ## UIT (VNUHCM) - Competitive Programming Contest, System Operator
 
 - Sept 2019 – Dec 2020
 - Ho Chi Minh City
-- Configured and maintained contest systems using Docker, Nginx, and PHP for seamless event execution.
-- Ensured system reliability under high-demand scenarios.
+- Configured and maintained contest systems with Docker, Nginx, and PHP, ensuring reliability during high-demand events.
 
 # Certifications
 
