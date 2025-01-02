@@ -72,5 +72,6 @@ Experienced DevOps consultant with a strong focus on cloud services and infrastr
 Explore my side projects in Data Science, Machine Learning, Mathematics, and more on [my website](https://vanviethieuanh.github.io/dev/) or [GitHub](https://github.com/vanviethieuanh).
 
 
-_This CV was generated using GitHub Workflow._
+*This CV was generated using GitHub Workflow.*
+
 
