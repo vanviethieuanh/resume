@@ -67,19 +67,18 @@ cv:
         highlights:
           - "**GPA**: 8.00/10.00"
 
+    Side_Projects:
+      - >
+        [Lissajous Curve](https://accodius.com/creative-coding/lissajous-curve/) | [Feynmen's Ellipse](https://accodius.com/creative-coding/richard-feynmen-ellipse/).
+      - >
+        *This CV was generated using GitHub Workflow.*
+
     Skills:
       - "**Programming**: Python, JavaScript, TypeScript, C#"
       - "**Infrastructure as Code (IaC)**: Terraform"
       - "**Cloud Platforms**: Azure Services"
       - "**DevOps Tools**: Azure DevOps, Jenkins, PowerShell, Bash, Groovy"
       - "**Cross-functional Collaboration**: Proven success in international environments and across time zones."
-
-    Side_Projects:
-      - >
-        Explore my side projects in Data Science, Machine Learning, Mathematics, and more on
-        [my website](https://vanviethieuanh.github.io/dev/) or [GitHub](https://github.com/vanviethieuanh).
-      - >
-        *This CV was generated using GitHub Workflow.*
 
 design:
   theme: classic
