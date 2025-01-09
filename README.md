@@ -69,7 +69,7 @@ I spent days setting up my Arch Linux-powered workstation, not just for producti
 
 # Side Projects
 
-Explore my side projects in Data Science, Machine Learning, Mathematics, and more on [my website](https://vanviethieuanh.github.io/dev/) or [GitHub](https://github.com/vanviethieuanh).
+[Lissajous Curve](https://accodius.com/creative-coding/lissajous-curve/) | [Richard Feynman's Ellipse](https://accodius.com/creative-coding/richard-feynmen-ellipse/) | [Scheduling Algorithms](https://vanviethieuanh.github.io/scheduling-algorithms/) | [Page Replacement Algorithms](https://vanviethieuanh.github.io/page-replacement-algorithms/) |
 
 
 *This CV was generated using GitHub Workflow.*
