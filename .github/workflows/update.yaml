@@ -25,7 +25,7 @@ jobs:
         uses: actions/checkout@v4.1.7
 
       - name: Install dependencies
-        run: pip install rendercv
+        run: pip install -r requirements.txt
 
       - name: Update CV
         run: |
