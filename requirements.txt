@@ -1,2 +1,1 @@
-rendercv[full]
-rich
+rendercv==1.18
