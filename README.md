@@ -20,7 +20,7 @@ I spent days setting up my Arch Linux-powered workstation, not just for producti
 - Jan 2023 – present
 - Ho Chi Minh City
 - Designed and implemented Terraform modules for secure, scalable deployments, and authored best practices to enhance security and resource access.
-- Managed Azure resources across multiple subscriptions and applications, ensuring compliance and performance optimization.
+- Managed Azure resources across multiple subscriptions and applications, leveraging Azure Landing Zone architecture to ensure compliance, standardization, and performance optimization.
 - Migrated repositories from AWS to Azure, integrating and optimizing with JavaScript/TypeScript.
 - Refined Azure networking and developed pipeline templates to streamline CI/CD processes.
 - Reported impactful Azure Portal bugs to Microsoft.
