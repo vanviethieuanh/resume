@@ -72,6 +72,6 @@ I spent days setting up my Arch Linux-powered workstation, not just for producti
 [Lissajous Curve](https://accodius.com/creative-coding/lissajous-curve/) | [Richard Feynman's Ellipse](https://accodius.com/creative-coding/richard-feynmen-ellipse/) | [Scheduling Algorithms](https://vanviethieuanh.github.io/scheduling-algorithms/) | [Page Replacement Algorithms](https://vanviethieuanh.github.io/page-replacement-algorithms/) |
 
 
-*This CV was generated using GitHub Workflow.*
+*This CV was generated using a GitHub Workflow based on a YAML configuration.*
 
 
