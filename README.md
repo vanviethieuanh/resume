@@ -2,7 +2,7 @@
 
 - Phone: +84 946 378 852
 - Email: [vanviethieuanh@gmail.com](mailto:vanviethieuanh@gmail.com)
-- Location: Binh Thanh, Ho Chi Minh City
+- Location: Ho Chi Minh City, Vietnam
 - Website: [vanviethieuanh.github.iodev](https://vanviethieuanh.github.io/dev/)
 - LinkedIn: [vanviethieuanh](https://linkedin.com/in/vanviethieuanh)
 - GitHub: [vanviethieuanh](https://github.com/vanviethieuanh)
