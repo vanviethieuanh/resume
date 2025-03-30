@@ -17,7 +17,7 @@ I meticulously set up my Arch Linux workstation, driven by both productivity and
 
 ## Netcompany - NLP, Consultant
 
-- Jan 2023 – present
+- Jan 2023 – Feb 2025
 - Ho Chi Minh City
 - Designed and implemented Terraform modules for secure, scalable deployments, and authored best practices to enhance security and resource access.
 - Managed Azure resources across multiple subscriptions and applications, leveraging Azure Landing Zone architecture to ensure compliance, standardization, and performance optimization.
