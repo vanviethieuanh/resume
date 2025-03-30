@@ -61,11 +61,9 @@ I spent days setting up my Arch Linux-powered workstation, not just for producti
 
 **Infrastructure as Code (IaC)**: Terraform
 
-**Cloud Platforms**: Azure Services
+**Cloud & DevOps**: Azure, Azure DevOps, Jenkins, PowerShell, Bash, Groovy
 
-**DevOps Tools**: Azure DevOps, Jenkins, PowerShell, Bash, Groovy
-
-**Cross-functional Collaboration**: Proven success in international environments and across time zones.
+**Collaboration**: Experienced in international and cross-time-zone environments.
 
 # Side Projects
 
