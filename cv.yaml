@@ -20,7 +20,7 @@ cv:
       - company: Netcompany - NLP
         position: Consultant
         start_date: 2023-01
-        end_date: present
+        end_date: 2025-02
         location: Ho Chi Minh City
         highlights:
           - Designed and implemented Terraform modules for secure, scalable deployments, and authored best practices to enhance security and resource access.
