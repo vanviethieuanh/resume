@@ -35,7 +35,7 @@ cv:
         end_date: 2023-01
         location: Ho Chi Minh City
         highlights:
-          - Configured Keycloak for SSO and OIDC to secure and streamline authentication.
+          - Configured Keycloak for SSO and OIDC across multiple providers with hundreds of roles.
           - Conducted system performance testing.
 
       - company: Personal Homelab
@@ -43,7 +43,7 @@ cv:
         start_date: 2024-06
         end_date: present
         highlights:
-          - Built a hybrid cluster using an old laptop and cloud VMs, integrating WireGuard for secure VPN and Kubernetes (k3s) with Helm for efficient deployments.
+          - Built a hybrid cluster with an old laptop and cloud VMs, using WireGuard for VPN and k3s with Helm for deployments.
 
       - company: UIT (VNUHCM) - Competitive Programming Contest
         position: System Operator
@@ -51,7 +51,7 @@ cv:
         end_date: 2020-12
         location: Ho Chi Minh City
         highlights:
-          - Configured and maintained contest systems with Docker, Nginx, and PHP, ensuring reliability during high-demand events.
+          - Managed contest systems with Docker, Nginx, and PHP, ensuring reliability under high demand.
 
     Certifications:
       - bullet: "**AZ900 - Azure Fundamentals** - Microsoft"
