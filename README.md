@@ -29,19 +29,19 @@ I spent days setting up my Arch Linux-powered workstation, not just for producti
 
 - June 2022 – Jan 2023
 - Ho Chi Minh City
-- Configured Keycloak for SSO and OIDC to secure and streamline authentication.
+- Configured Keycloak for SSO and OIDC across multiple providers with hundreds of roles.
 - Conducted system performance testing.
 
 ## Personal Homelab, System Operator
 
 - June 2024 – present
-- Built a hybrid cluster using an old laptop and cloud VMs, integrating WireGuard for secure VPN and Kubernetes (k3s) with Helm for efficient deployments.
+- Built a hybrid cluster with an old laptop and cloud VMs, using WireGuard for VPN and k3s with Helm for deployments.
 
 ## UIT (VNUHCM) - Competitive Programming Contest, System Operator
 
 - Sept 2019 – Dec 2020
 - Ho Chi Minh City
-- Configured and maintained contest systems with Docker, Nginx, and PHP, ensuring reliability during high-demand events.
+- Managed contest systems with Docker, Nginx, and PHP, ensuring reliability under high demand.
 
 # Certifications
 
