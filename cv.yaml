@@ -53,10 +53,6 @@ cv:
         highlights:
           - Configured and maintained contest systems with Docker, Nginx, and PHP, ensuring reliability during high-demand events.
 
-    Certifications:
-      - bullet: "**AZ900 - Azure Fundamentals** - Microsoft"
-      - bullet: "**Computational Thinking for Problem Solving** - University of Pennsylvania"
-
     Education:
       - institution: University of Information Technology - VNUHCM
         area: Computer Science
@@ -66,6 +62,8 @@ cv:
         location: Ho Chi Minh City
         highlights:
           - "**GPA**: 8.00/10.00"
+      - bullet: "**AZ900 - Azure Fundamentals** - Microsoft"
+      - bullet: "**Computational Thinking for Problem Solving** - University of Pennsylvania"
 
     Skills:
       - "**Programming**: Python, JavaScript, TypeScript, C#"
