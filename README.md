@@ -15,7 +15,7 @@ I meticulously set up my Arch Linux workstation, driven by both productivity and
 
 # Experiences
 
-## Netcompany - NLP, Consultant
+## Netcompany - NLP (Nordea Life & Pension), Consultant
 
 - Jan 2023 – Feb 2025
 - Ho Chi Minh City
