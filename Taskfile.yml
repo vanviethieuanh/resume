@@ -17,9 +17,8 @@ tasks:
       - for: ["devops", "dev"]
         cmd: >
           .venv/bin/rendercv render "cv_{{ .ITEM }}.yaml"
-          --output-folder-name ./build/{{ .ITEM }}
+          --output-folder-name ./rendered/{{ .ITEM }}
+          --pdf-path ./rendered/{{ .ITEM }}/cv.pdf
           -nomd -nohtml -nopng
-
-  clean:
-    desc: Clean build dir
-    cmd: rm -r build
+      - find . -iname '*Van_Viet_Hieu_Anh_CV*' -delete
+        
