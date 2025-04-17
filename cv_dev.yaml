@@ -47,14 +47,6 @@ cv:
           - Configured Keycloak for SSO and OIDC integration with multiple identity providers and hundreds of user roles.
           - Performed system performance testing and tuning.
 
-      - company: UIT (VNUHCM) - Competitive Programming Contest
-        position: System Operator
-        start_date: 2019-09
-        end_date: 2020-12
-        location: Ho Chi Minh City
-        highlights:
-          - Operated and maintained contest systems using Docker, Nginx, and PHP, ensuring stability and high availability during peak usage.
-
     Certifications:
       - bullet: "**AZ900 - Azure Fundamentals** - Microsoft"
       - bullet: "**Computational Thinking for Problem Solving** - University of Pennsylvania"
