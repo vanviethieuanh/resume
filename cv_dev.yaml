@@ -34,7 +34,7 @@ cv:
         start_date: 2024-06
         end_date: present
         highlights:
-          - Designed a pipeline to collect, process, and organize hundreds of gigabytes of text files using Python, Rust, FFMPEG, and GNU Parallel.
+          - Designed a pipeline to collect, process, and organize hundreds of gigabytes of text files using Python, Rust, and GNU Parallel.
           - Built a hybrid cluster combining an old laptop and cloud VMs, utilizing WireGuard VPN and deploying services with K3s and Helm.
 
       - company: Netcompany - Flexdanmark
