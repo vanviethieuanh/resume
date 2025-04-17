@@ -1,0 +1,121 @@
+cv:
+  name: Van Viet Hieu Anh
+  location: Ho Chi Minh City, Vietnam
+  email: vanviethieuanh@gmail.com
+  phone: +84 946 378 852
+  website: https://vanviethieuanh.github.io/dev/
+
+  social_networks:
+    - network: LinkedIn
+      username: vanviethieuanh
+    - network: GitHub
+      username: vanviethieuanh
+
+  sections:
+    Summary:
+      - >
+        I have a strong foundation and years of experience with Asynchronous and Parallel Processing in Python, 
+        including concepts like Mutex, Arc, and Semaphore. Over the years building such applications, 
+        I continuously synthesize practical insights and never hesitate to explore alternative approaches to solving complex problems.
+
+    Experiences:
+      - company: Netcompany - NLP (Nordea Life & Pension)
+        position: Consultant
+        start_date: 2023-01
+        end_date: 2025-02
+        location: Ho Chi Minh City
+        highlights:
+          - Implemented a Python application to automatically synchronize, analyze, and generate reports using asyncio with semaphores for controlling concurrent tasks.
+          - Built a custom Azure DevOps Python task to synchronize and validate Azure APIM API configurations across repositories.
+          - Migrated repositories from AWS to Azure, integrating and optimizing with JavaScript/TypeScript.
+
+      - company: Personal Homelab
+        position: System Operator
+        start_date: 2024-06
+        end_date: present
+        highlights:
+          - Designed a pipeline to collect, process, and organize hundreds of gigabytes of text files using Python, Rust, FFMPEG, and GNU Parallel.
+          - Built a hybrid cluster combining an old laptop and cloud VMs, utilizing WireGuard VPN and deploying services with K3s and Helm.
+
+      - company: Netcompany - Flexdanmark
+        position: Consultant
+        start_date: 2022-06
+        end_date: 2023-01
+        location: Ho Chi Minh City
+        highlights:
+          - Developed a Python application to scan documents and assist in generating accurate authentication system configurations.
+          - Configured Keycloak for SSO and OIDC integration with multiple identity providers and hundreds of user roles.
+          - Performed system performance testing and tuning.
+
+      - company: UIT (VNUHCM) - Competitive Programming Contest
+        position: System Operator
+        start_date: 2019-09
+        end_date: 2020-12
+        location: Ho Chi Minh City
+        highlights:
+          - Operated and maintained contest systems using Docker, Nginx, and PHP, ensuring stability and high availability during peak usage.
+
+    Certifications:
+      - bullet: "**AZ900 - Azure Fundamentals** - Microsoft"
+      - bullet: "**Computational Thinking for Problem Solving** - University of Pennsylvania"
+
+    Education:
+      - institution: University of Information Technology - VNUHCM
+        area: Computer Science
+        degree: BS
+        start_date: 2019-09
+        end_date: 2023-11
+        location: Ho Chi Minh City
+        highlights:
+          - "**GPA**: 8.00/10.00"
+
+    Skills:
+      - "**Programming**: Python, JavaScript, TypeScript, C#"
+      - "**Infrastructure as Code (IaC)**: Terraform"
+      - "**Cloud & DevOps**: Azure, Azure DevOps, Jenkins, PowerShell, Bash, Groovy"
+      - "**Collaboration**: Experienced in international and cross-time-zone environments."
+
+    Side_Projects:
+      - >
+        [Lissajous Curve](https://accodius.com/creative-coding/lissajous-curve/) |
+        [Richard Feynman's Ellipse](https://accodius.com/creative-coding/richard-feynmen-ellipse/) |
+        [Scheduling Algorithms](https://vanviethieuanh.github.io/scheduling-algorithms/) |
+        [Page Replacement Algorithms](https://vanviethieuanh.github.io/page-replacement-algorithms/) |
+      - >
+        *This CV was generated using a GitHub Workflow based on a YAML configuration.*
+
+design:
+  theme: classic
+  color: "#884A39"
+  disable_external_link_icons: false
+  disable_last_updated_date: false
+  disable_page_numbering: false
+  font: Source Sans 3
+  font_size: 10pt
+  header_font_size: "30 pt"
+  page_size: a4paper
+  show_timespan_in:
+    - "Experience"
+  text_alignment: justified
+  margins:
+    page:
+      bottom: 1.5 cm
+      left: 2 cm
+      right: 2 cm
+      top: 1.5 cm
+    section_title:
+      bottom: 0.2 cm
+      top: 0.3 cm
+    entry_area:
+      date_and_location_width: 4.5 cm
+      education_degree_width: 1 cm
+      left_and_right: 0.2 cm
+      vertical_between: 0.2 cm
+    highlights_area:
+      left: 0.4 cm
+      top: 0.12 cm
+      vertical_between_bullet_points: 0.10 cm
+    header:
+      bottom: 0.3 cm
+      horizontal_between_connections: 0.5 cm
+      vertical_between_name_and_connections: 0.3 cm

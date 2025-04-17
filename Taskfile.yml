@@ -1,0 +1,25 @@
+version: "3"
+
+tasks:
+  setup:
+    desc: Set up Python environment and install dependencies
+    cmds:
+      - python3 -m venv .venv
+      - .venv/bin/pip install --upgrade pip
+      - .venv/bin/pip install -r requirements.txt
+    sources:
+      - requirements.txt
+
+  render-cv:
+    desc: Render the CV using rendercv
+    deps: [setup]
+    cmds:
+      - for: ["devops", "dev"]
+        cmd: >
+          .venv/bin/rendercv render "cv_{{ .ITEM }}.yaml"
+          --output-folder-name ./build/{{ .ITEM }}
+          -nomd -nohtml -nopng
+
+  clean:
+    desc: Clean build dir
+    cmd: rm -r build
