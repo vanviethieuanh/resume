@@ -30,7 +30,7 @@ cv:
           - Migrated repositories from AWS to Azure, integrating and optimizing with JavaScript/TypeScript.
 
       - company: Personal Homelab
-        position: System Operator
+        position: System Operator & Developer
         start_date: 2024-06
         end_date: present
         highlights:
