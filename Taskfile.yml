@@ -17,6 +17,7 @@ tasks:
       - for: ["devops", "dev"]
         cmd: >
           .venv/bin/rendercv render "cv_{{ .ITEM }}.yaml"
+          --design ./design.yaml
           --output-folder-name ./build
           --pdf-path ./rendered/{{ .ITEM }}.pdf
           -nomd -nohtml -nopng
