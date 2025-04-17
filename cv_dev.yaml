@@ -34,7 +34,7 @@ cv:
         start_date: 2024-06
         end_date: present
         highlights:
-          - Designed a pipeline to collect, process, and organize hundreds of gigabytes of text files using Python, Rust, and GNU Parallel.
+          - Designed a pipeline to collect, process, and organize hundreds of gigabytes of text files using Python, Rust, and GNU Parallel; utilized Pydantic, FastAPI, and SQLModel for data validation, API handling, and structured storage.
           - Built a hybrid cluster combining an old laptop and cloud VMs, utilizing WireGuard VPN and deploying services with K3s and Helm.
 
       - company: Netcompany - Flexdanmark
@@ -63,8 +63,7 @@ cv:
 
     Skills:
       - "**Programming**: Python, JavaScript, TypeScript, C#"
-      - "**Infrastructure as Code (IaC)**: Terraform"
-      - "**Cloud & DevOps**: Azure, Azure DevOps, Jenkins, PowerShell, Bash, Groovy"
+      - "**Cloud & DevOps**: Azure, Azure DevOps, Terraform, PowerShell, Bash"
       - "**Collaboration**: Experienced in international and cross-time-zone environments."
 
     Side_Projects:
