@@ -31,7 +31,7 @@ design:
     photo_width: 3.5cm
     vertical_space_between_name_and_connections: 0.7cm
     vertical_space_between_connections_and_first_section: 0.7cm
-    horizontal_space_between_connections: 0.3cm
+    horizontal_space_between_connections: 0.7cm
     connections_font_family: Lato
     separator_between_connections: ""
     use_icons_for_connections: true

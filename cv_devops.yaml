@@ -3,18 +3,14 @@ cv:
   location: Ho Chi Minh City, Vietnam
   email: vanviethieuanh@gmail.com
   phone: +84 946 378 852
-  website: https://vanviethieuanh.github.io/dev/
 
   social_networks:
     - network: LinkedIn
       username: vanviethieuanh
-    - network: GitHub
-      username: vanviethieuanh
 
   sections:
     Summary:
-      - >
-        I meticulously set up my Arch Linux workstation, driven by both productivity and passion. I create precise floral designs in Desmos and apply the same attention to detail in DevOps, specializing in Terraform, Azure, automation, and OAuth/OIDC.
+      - SRE / DevOps / Cloud Engineer with 3 years of experience in automation and cloud infrastructure, who believes programming is about automating the repetitive to focus on true engineering craftsmanship.
 
     Experiences:
       - company: Netcompany - NLP (Nordea Life & Pension)
@@ -23,10 +19,12 @@ cv:
         end_date: 2025-02
         location: Ho Chi Minh City
         highlights:
-          - Designed and implemented Terraform modules for secure, scalable deployments, and authored best practices to enhance security and resource access.
-          - Managed Azure resources using Landing Zone architecture to ensure compliance, standardization, and performance across subscriptions and applications.
-          - Migrated repositories from AWS to Azure, integrating and optimizing with JavaScript/TypeScript.
-          - Refined Azure networking and developed pipeline templates to streamline CI/CD processes.
+          - Designed and implemented reusable Terraform modules to enable secure, scalable, and compliant deployments on Azure, aligned with organizational standards.
+          - Authored and promoted best practices to improve the security posture and scalability of cloud operations.
+          - Managed Azure resources across hundreds of subscriptions using Landing Zone architecture to ensure consistency, compliance, and high performance.
+          - Configured, maintained, and optimized Azure networking components—including VNets, peering, VPN gateways, subnets, and Azure Firewall to meet compliance policies and industry security standards such as OWASP.
+          - Diagnosed backend issues within Azure Cloud Service Provider when cloud resource modification operations encountered unexpected failures on provider side.
+          - Provided architectural support for developers during the migration of repositories from AWS to Azure, integrating and enhancing workflows using JavaScript and TypeScript.
 
       - company: Netcompany - Flexdanmark
         position: Consultant
@@ -34,15 +32,17 @@ cv:
         end_date: 2023-01
         location: Ho Chi Minh City
         highlights:
-          - Configured Keycloak for SSO and OIDC across multiple providers with hundreds of roles extracted from documents.
-          - Conducted system performance testing.
+          - Configured Keycloak for SSO and OIDC, integrating identity providers using information programmatically extracted from documentation with a custom-built tool.
+          - Set up Apache JMeter for distributed performance testing across multiple nodes.
 
       - company: Personal Homelab
         position: System Operator
         start_date: 2024-06
         end_date: present
         highlights:
-          - Built a hybrid cluster with an old laptop and cloud VMs, using WireGuard for VPN and k3s with Helm for deployments.
+          - Built a hybrid cluster from an old laptop and cloud VMs, bridged using WireGuard and manage them with K3S.
+          - Use Jenkins to manage pipelines to perform Data ETL processes.
+          - Utilized GNU tools for simplification the workload to handle parallelism and semaphores in programming.
 
       - company: UIT (VNUHCM) - Competitive Programming Contest
         position: System Operator
@@ -50,7 +50,7 @@ cv:
         end_date: 2020-12
         location: Ho Chi Minh City
         highlights:
-          - Managed contest systems with Docker, Nginx, and PHP, ensuring reliability under high demand.
+          - Deployed and maintained ICPC contest system using Docker and Nginx for reliable high-demand performance.
 
     Certifications:
       - bullet: "**AZ900 - Azure Fundamentals** - Microsoft"
@@ -67,15 +67,6 @@ cv:
           - "**GPA**: 8.00/10.00"
 
     Skills:
-      - "**Infrastructure as Code (IaC)**: Terraform"
-      - "**Cloud & DevOps**: Azure, Azure DevOps, PowerShell, Bash, Python"
-      - "**Collaboration**: Experienced in international and cross-time-zone environments."
-
-    Side_Projects:
-      - >
-        [Lissajous Curve](https://accodius.com/creative-coding/lissajous-curve/) |
-        [Richard Feynman's Ellipse](https://accodius.com/creative-coding/richard-feynmen-ellipse/) |
-        [Scheduling Algorithms](https://vanviethieuanh.github.io/scheduling-algorithms/) |
-        [Page Replacement Algorithms](https://vanviethieuanh.github.io/page-replacement-algorithms/) |
-      - >
-        *This CV was generated using a GitHub Workflow based on a YAML configuration.*
+      - "**Infrastructure as Code (IaC) & Cloud Providers**: Terraform, Ansible, Azure, AWS, Backblaze"
+      - "**DevOps & Automation Tools**: Azure DevOps, Jenkins, Github Actions, PowerShell, Bash, Python, Taskfile, Linux Utilities"
+      - "**Collaboration**: Experienced in international, cross-time-zone teams across PL, DK, and NL"

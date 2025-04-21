@@ -3,12 +3,9 @@ cv:
   location: Ho Chi Minh City, Vietnam
   email: vanviethieuanh@gmail.com
   phone: +84 946 378 852
-  website: https://vanviethieuanh.github.io/dev/
 
   social_networks:
     - network: LinkedIn
-      username: vanviethieuanh
-    - network: GitHub
       username: vanviethieuanh
 
   sections:
@@ -72,5 +69,3 @@ cv:
         [Richard Feynman's Ellipse](https://accodius.com/creative-coding/richard-feynmen-ellipse/) |
         [Scheduling Algorithms](https://vanviethieuanh.github.io/scheduling-algorithms/) |
         [Page Replacement Algorithms](https://vanviethieuanh.github.io/page-replacement-algorithms/) |
-      - >
-        *This CV was generated using a GitHub Workflow based on a YAML configuration.*
