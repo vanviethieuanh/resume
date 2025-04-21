@@ -34,7 +34,7 @@ cv:
         end_date: 2023-01
         location: Ho Chi Minh City
         highlights:
-          - Configured Keycloak for SSO and OIDC across multiple providers with hundreds of roles.
+          - Configured Keycloak for SSO and OIDC across multiple providers with hundreds of roles extracted from documents.
           - Conducted system performance testing.
 
       - company: Personal Homelab
