@@ -9,7 +9,7 @@ cv:
       username: vanviethieuanh
 
   sections:
-    Summary:
+    _:
       - >
         I have a strong foundation and years of experience with Asynchronous and Parallel Processing in Python, 
         including concepts like Mutex, Arc, and Semaphore. Over the years building such applications, 

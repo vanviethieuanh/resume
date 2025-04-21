@@ -9,7 +9,7 @@ cv:
       username: vanviethieuanh
 
   sections:
-    Summary:
+    _:
       - SRE / DevOps / Cloud Engineer with 3 years of experience in automation and cloud infrastructure, who believes programming is about automating the repetitive to focus on true engineering craftsmanship.
 
     Experiences:
@@ -40,9 +40,9 @@ cv:
         start_date: 2024-06
         end_date: present
         highlights:
-          - Built a hybrid cluster from an old laptop and cloud VMs, bridged using WireGuard and manage them with K3S.
-          - Use Jenkins to manage pipelines to perform Data ETL processes.
-          - Utilized GNU tools for simplification the workload to handle parallelism and semaphores in programming.
+          - Built a hybrid cluster from an old laptop and cloud VMs, bridged using WireGuard and manage them with Kubernetes.
+          - Utilized Jenkins for automating ETL pipeline tasks, scripting data processing flows efficiently.
+          - Leveraged GNU tools to orchestrate workload parallelism, enhancing the efficiency of semaphores in programming.
 
       - company: UIT (VNUHCM) - Competitive Programming Contest
         position: System Operator
@@ -50,7 +50,7 @@ cv:
         end_date: 2020-12
         location: Ho Chi Minh City
         highlights:
-          - Deployed and maintained ICPC contest system using Docker and Nginx for reliable high-demand performance.
+          - Implemented and maintained ICPC contest systems using Docker and Nginx to ensure high-demand performance and reliability.
 
     Certifications:
       - bullet: "**AZ900 - Azure Fundamentals** - Microsoft"
@@ -68,5 +68,6 @@ cv:
 
     Skills:
       - "**Infrastructure as Code (IaC) & Cloud Providers**: Terraform, Ansible, Azure, AWS, Backblaze"
-      - "**DevOps & Automation Tools**: Azure DevOps, Jenkins, Github Actions, PowerShell, Bash, Python, Taskfile, Linux Utilities"
+      - "**DevOps & Automation Tools**: Azure DevOps, Jenkins, Github Actions, PowerShell, Taskfile, Linux Utilities"
+      - "**Scripting & Orchestration**: Shell scripting, Python scripting, Ansible playbooks, CI/CD pipelines"
       - "**Collaboration**: Experienced in international, cross-time-zone teams across PL, DK, and NL"
