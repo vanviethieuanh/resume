@@ -22,7 +22,7 @@ cv:
           - Designed and implemented reusable Terraform modules to enable secure, scalable, and compliant deployments on Azure, aligned with organizational standards.
           - Authored and promoted best practices to improve the security posture and scalability of cloud operations.
           - Managed Azure resources across hundreds of subscriptions using Landing Zone architecture to ensure consistency, compliance, and high performance.
-          - Configured, maintained, and optimized Azure networking components—including VNets, peering, VPN gateways, subnets, and Azure Firewall to meet compliance policies and industry security standards such as OWASP.
+          - Configured, maintained, and optimized Azure networking components—including VNets, peering, VPN gateways, subnets, and Azure Firewall—with enhanced capabilities such as TLS inspection and threat intelligence-based filtering, ensuring adherence to compliance policies and alignment with industry security standards like OWASP.
           - Diagnosed backend issues within Azure Cloud Service Provider when cloud resource modification operations encountered unexpected failures on provider side.
           - Provided architectural support for developers during the migration of repositories from AWS to Azure, integrating and enhancing workflows using JavaScript and TypeScript.
 
