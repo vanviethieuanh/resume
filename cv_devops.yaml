@@ -10,9 +10,21 @@ cv:
 
   sections:
     _:
-      - SRE / DevOps / Cloud Engineer with 3 years of experience in automation and cloud infrastructure, who believes programming is about automating the repetitive to focus on true engineering craftsmanship.
+      - SRE / DevOps / Cloud Engineer with more than 3 years of experience in automation and cloud infrastructure, who believes programming is about automating the repetitive to focus on true engineering craftsmanship.
 
     Experiences:
+      - company: Codelink
+        position: DevOps Engineer
+        start_date: 2025-03
+        end_date: present
+        location: Ho Chi Minh City
+        highlights:
+          - Automated migration of Keycloak servers and multi-cloud resources (Azure, AWS, GCP) into Terraform, reducing manual configuration time by hundreds of hours.
+          - Deployed a secure, high-performance WireGuard VPN and internal access portal for distributed teams.
+          - Centralized cost and usage monitoring across Azure, AWS, GCP, and GitHub Actions using Grafana and custom dashboards.
+          - Guided teams in version control modernization, migrating from SVN to Git and Azure DevOps with best practices.
+          - Designed and maintained Azure Pipelines to streamline CI/CD workflows while ensuring compatibility with legacy systems.
+
       - company: Netcompany - NLP (Nordea Life & Pension)
         position: Consultant
         start_date: 2023-01
@@ -34,15 +46,6 @@ cv:
         highlights:
           - Configured Keycloak for SSO and OIDC, integrating identity providers using information programmatically extracted from documentation with a custom-built tool.
           - Set up Apache JMeter for distributed performance testing across multiple nodes.
-
-      - company: Personal Homelab
-        position: System Operator
-        start_date: 2024-06
-        end_date: present
-        highlights:
-          - Built a hybrid cluster from an old laptop and cloud VMs, bridged using WireGuard and manage them with Kubernetes.
-          - Utilized Jenkins for automating ETL pipeline tasks, scripting data processing flows efficiently.
-          - Leveraged GNU tools to orchestrate workload parallelism, enhancing the efficiency of semaphores in programming.
 
       - company: UIT (VNUHCM) - Competitive Programming Contest
         position: System Operator
@@ -67,7 +70,8 @@ cv:
           - "**GPA**: 8.00/10.00"
 
     Skills:
-      - "**Infrastructure as Code (IaC) & Cloud Providers**: Terraform, Ansible, Azure, AWS, Backblaze"
-      - "**DevOps & Automation Tools**: Azure DevOps, Jenkins, Github Actions, PowerShell, Taskfile, Linux Utilities"
-      - "**Scripting & Orchestration**: Shell scripting, Python scripting, Ansible playbooks, CI/CD pipelines"
-      - "**Collaboration**: Experienced in international, cross-time-zone teams across PL, DK, and NL"
+      - "**Infrastructure as Code (IaC) & Cloud Providers**: Terraform, Ansible, Azure, AWS, GCP, Backblaze, Azure Landing Zone, Policy-as-Code"
+      - "**DevOps & Automation Tools**: Azure DevOps, Jenkins, GitHub Actions, Taskfile, PowerShell, Bash, Linux Utilities, Prometheus, Grafana"
+      - "**Scripting & Orchestration**: Shell scripting, Python scripting, Ansible Playbooks, CI/CD Pipelines, Docker, Containerization, Automation Frameworks"
+      - "**Networking & Security**: WireGuard VPN, Azure Firewall, VNets, Peering, TLS Inspection, OIDC, SSO, IAM, RBAC, Compliance Management"
+      - "**Collaboration & Communication**: Cross-time-zone teamwork (PL, DK, NL, PH), Git Workflows, Code Review, Technical Documentation, DevOps Culture Enablement"
