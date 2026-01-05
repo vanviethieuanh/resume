@@ -1,7 +1,17 @@
 version: "3"
 
 tasks:
+  default:
+    desc: Render all CV using rendercv
+    deps: [setup]
+    cmds:
+      - rm -r rendered
+      - mkdir -p rendered
+      - task: render-cvs
+      - find . -iname '*Van_Viet_Hieu_Anh_CV*' -delete
+
   setup:
+    internal: true
     desc: Set up Python environment and install dependencies
     cmds:
       - python3 -m venv .venv
@@ -10,15 +20,25 @@ tasks:
     sources:
       - requirements.txt
 
+  render-cvs:
+    internal: true
+    vars:
+      CV:
+        sh: find . -maxdepth 1 \( -name 'cv_*.yaml' -o -name 'cv_*.yml' \)
+
+    deps:
+      - for: { var: CV }
+        task: render-cv
+        vars:
+          FILE: "{{ .ITEM }}"
+
   render-cv:
-    desc: Render the CV using rendercv
-    deps: [setup]
+    internal: true
     cmds:
-      - for: ["devops", "dev"]
-        cmd: >
-          .venv/bin/rendercv render "cv_{{ .ITEM }}.yaml"
-          --design ./design.yaml
-          --output-folder-name ./build
-          --pdf-path ./rendered/{{ .ITEM }}.pdf
-          -nomd -nohtml -nopng
-      - find . -iname '*Van_Viet_Hieu_Anh_CV*' -delete
+      - >
+        .venv/bin/rendercv render {{ .FILE }}
+        --design ./design.yaml
+        --output-folder-name ./build
+        --pdf-path ./rendered/{{ .FILE | base | trimSuffix ".yaml" | trimSuffix ".yml" }}.pdf
+        -nomd -nohtml -nopng
+        >> /dev/null

@@ -36,6 +36,14 @@ cv:
           - Configured Keycloak for SSO and OIDC, integrating identity providers using information programmatically extracted from documentation with a custom-built tool.
           - Set up Apache JMeter for distributed performance testing to verify system reliability under high load.
 
+      - company: UIT (VNUHCM) - Competitive Programming Contest
+        position: System Operator
+        start_date: 2019-09
+        end_date: 2020-12
+
+        highlights:
+          - Implemented and maintained ICPC contest systems using Docker and Nginx to ensure high-demand performance and reliability.
+
     Certifications:
       - bullet: "**AZ900 - Azure Fundamentals** - Microsoft"
       - bullet: "**Computational Thinking for Problem Solving** - University of Pennsylvania"
