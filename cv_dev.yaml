@@ -1,8 +1,6 @@
 cv:
   name: Van Viet Hieu Anh
-  location: Ho Chi Minh City, Vietnam
   email: vanviethieuanh@gmail.com
-  phone: +84 946 378 852
 
   social_networks:
     - network: LinkedIn
@@ -20,7 +18,7 @@ cv:
         position: Consultant
         start_date: 2023-01
         end_date: 2025-02
-        location: Ho Chi Minh City
+
         highlights:
           - Implemented a Python application to automatically synchronize, analyze, and generate reports using asyncio with semaphores for controlling concurrent tasks.
           - Built a custom Azure DevOps Python task to synchronize and validate Azure APIM API configurations across repositories.
@@ -38,7 +36,7 @@ cv:
         position: Consultant
         start_date: 2022-06
         end_date: 2023-01
-        location: Ho Chi Minh City
+
         highlights:
           - Developed a Python application to scan documents and assist in generating accurate authentication system configurations.
           - Configured Keycloak for SSO and OIDC integration with multiple identity providers and hundreds of user roles.
@@ -54,7 +52,7 @@ cv:
         degree: BS
         start_date: 2019-09
         end_date: 2023-11
-        location: Ho Chi Minh City
+
         highlights:
           - "**GPA**: 8.00/10.00"
 

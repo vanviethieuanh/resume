@@ -1,8 +1,6 @@
 cv:
   name: Van Viet Hieu Anh
-  location: Ho Chi Minh City, Vietnam
   email: vanviethieuanh@gmail.com
-  phone: +84 946 378 852
 
   social_networks:
     - network: LinkedIn
@@ -10,14 +8,14 @@ cv:
 
   sections:
     _:
-      - SRE / DevOps / Cloud Engineer with more than 3 years of experience in automation and cloud infrastructure, who believes programming is about automating the repetitive to focus on true engineering craftsmanship.
+      - I’m a DevOps and Cloud Engineer with 3+ years of experience automating cloud environments and CI/CD pipelines in multi-cloud settings. I focus on improving efficiency, reliability, and scalability, and have experience working closely with international teams to deliver complex projects.
 
     Experiences:
       - company: Codelink
         position: DevOps Engineer
         start_date: 2025-03
         end_date: present
-        location: Ho Chi Minh City
+
         highlights:
           - Automated migration of Keycloak servers and multi-cloud resources (Azure, AWS, GCP) into Terraform, reducing manual configuration time by hundreds of hours.
           - Deployed a secure, high-performance WireGuard VPN and internal access portal for distributed teams.
@@ -29,7 +27,7 @@ cv:
         position: Consultant
         start_date: 2023-01
         end_date: 2025-02
-        location: Ho Chi Minh City
+
         highlights:
           - Designed and implemented reusable Terraform modules to enable secure, scalable, and compliant deployments on Azure, aligned with organizational standards.
           - Authored and promoted best practices to improve the security posture and scalability of cloud operations.
@@ -42,7 +40,7 @@ cv:
         position: Consultant
         start_date: 2022-06
         end_date: 2023-01
-        location: Ho Chi Minh City
+
         highlights:
           - Configured Keycloak for SSO and OIDC, integrating identity providers using information programmatically extracted from documentation with a custom-built tool.
           - Set up Apache JMeter for distributed performance testing across multiple nodes.
@@ -51,7 +49,7 @@ cv:
         position: System Operator
         start_date: 2019-09
         end_date: 2020-12
-        location: Ho Chi Minh City
+
         highlights:
           - Implemented and maintained ICPC contest systems using Docker and Nginx to ensure high-demand performance and reliability.
 
@@ -65,7 +63,7 @@ cv:
         degree: BS
         start_date: 2019-09
         end_date: 2023-11
-        location: Ho Chi Minh City
+
         highlights:
           - "**GPA**: 8.00/10.00"
 
