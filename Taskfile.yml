@@ -39,6 +39,5 @@ tasks:
         .venv/bin/rendercv render {{ .FILE }}
         --design ./design.yaml
         --output-folder-name ./build
-        --pdf-path ./rendered/{{ .FILE | base | trimSuffix ".yaml" | trimSuffix ".yml" }}.pdf
+        --pdf-path ./rendered/{{ .FILE | base | trimSuffix ".yaml" | trimSuffix ".yml" | trimPrefix "cv_" }}.pdf
         -nomd -nohtml -nopng
-        >> /dev/null

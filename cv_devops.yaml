@@ -52,7 +52,7 @@ cv:
 
     Skills:
       - "**Cloud & IaC**: Terraform, Azure, AWS, GCP, Azure Landing Zone, Backblaze, Policy-as-Code"
-      - "**DevOps & Automation**: Azure DevOps, GitHub Actions, Jenkins, Taskfile, CI/CD Pipelines, Ansible, Docker, Containerization"
+      - "**DevOps & Automation**: Azure DevOps, GitHub Actions, Jenkins, Taskfile, CI/CD, Ansible, Docker"
       - "**Scripting & Programming**: Python, Go, Bash, Rust, Ansible Playbooks"
       - "**Networking & Security**: WireGuard VPN, Azure Firewall, VNets, Peering, TLS Inspection, OIDC, SSO, IAM, RBAC, Compliance Management"
       - "**Collaboration & Communication**: Cross-time-zone teamwork (PL, DK, NL, PH), Git workflows, Code Review, Technical Documentation, DevOps Culture Enablement"

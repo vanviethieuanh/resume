@@ -26,7 +26,7 @@ design:
     use_external_link_icon: false
   header:
     name_font_family: Libertinus Serif
-    name_font_size: 24pt
+    name_font_size: 22pt
     name_bold: false
     photo_width: 3.5cm
     vertical_space_between_name_and_connections: 0.7cm
