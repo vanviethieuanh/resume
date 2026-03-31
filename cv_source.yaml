@@ -17,67 +17,72 @@ cv:
       - DevOps and Cloud Engineer with 3+ years of experience automating multi-cloud infrastructure and CI/CD pipelines. Focused on building efficient, reliable, and scalable systems while collaborating with international teams.
 
     Experiences:
-      - company: UIT (VNUHCM) - Competitive Programming Contest
-        position: System Operator
-        start_date: 2019-09
-        end_date: 2020-12
-
-        highlights:
-          - Implemented and maintained ICPC contest systems using Docker and Nginx to ensure high-demand performance and reliability.
-
-      - company: Netcompany - Flexdanmark
+      # NOTE:
+      # Early career project at Netcompany for FlexDanmark (transport system).
+      # Worked mainly on backend support tasks, Keycloak configuration, and
+      # testing. Built internal tools to automate role management from messy
+      # Word documents. Also contributed to .NET utilities and performance
+      # testing setup. Focus was on improving maintainability and reducing
+      # manual work for role and access control.
+      - company: Netcompany - FlexDanmark
         position: Consultant
         start_date: 2022-06
         end_date: 2023-01
 
         highlights:
-          - Developed a Python application to scan documents and assist in generating accurate authentication system configurations.
-          - Configured Keycloak for SSO and OIDC integration with multiple identity providers and hundreds of user roles.
-          - Performed system performance testing and tuning.
+          - Wrote unit tests for C# .NET Core services to improve test coverage and stability.
+          - Configured Keycloak for SSO and OIDC, mapping roles to APIs based on large specification documents.
+          - Built a Python tool to parse Word documents and extract API-role mappings into structured Excel files.
+          - Developed a Python (async) tool using Pandas and aiohttp to sync Excel-based configurations to Keycloak.
+          - Designed a compact role naming convention to reduce token size and comply with header limits.
+          - Created reusable utility classes in C# for standardized RabbitMQ integration across services.
+          - Planned and executed JMeter performance testing, including distributed test setup.
 
+      # NOTE:
+      # Main project: migration of Nordea Life & Pension system from AWS to Azure.
+      # Started as a developer migrating legacy JS microservices, then moved to
+      # DevOps role due to project needs. Focused on Terraform, Azure governance,
+      # networking, and supporting multiple teams. Heavy emphasis on standardizing
+      # infrastructure, ensuring compliance, and reducing manual setup effort.
       - company: Netcompany - NLP (Nordea Life & Pension)
         position: Consultant
         start_date: 2023-01
         end_date: 2025-02
 
         highlights:
-          - Implemented a Python application to automatically synchronize, analyze, and generate reports using asyncio with semaphores for controlling concurrent tasks.
-          - Built a custom Azure DevOps Python task to synchronize and validate Azure APIM API configurations across repositories.
-          - Migrated repositories from AWS to Azure, integrating and optimizing with JavaScript/TypeScript.
+          - Migrated legacy JavaScript microservices from AWS to Azure, replacing services and SDKs with Azure equivalents.
+          - Maintained existing architecture during migration, adapting mixed integration patterns (HTTP, events, etc.).
+          - Developed reusable Terraform modules to enforce compliance and standardize infrastructure provisioning.
+          - Supported multiple teams in adopting Terraform, including writing documentation and usage guides.
+          - Built CI/CD pipelines to generate reports on code changes and policy compliance.
+          - Standardized Azure Entra ID Application Registration using Terraform modules with naming conventions and automation.
+          - Automated secret management by integrating Application Registrations with Azure Key Vault and expiry alerts.
+          - Supported VNet design and subnet allocation across teams, including planning and documentation.
+          - Assisted teams with Azure Firewall configuration and TLS inspection integration.
+          - Managed and supported infrastructure across 200+ Azure subscriptions using Landing Zone architecture.
+          - Assisted in integrating systems with external services (e.g., MitID).
 
-      - company: Netcompany - Projects for Nordea Bank, Topdanmark & FlexDanmark
-        position: Consultant
-        start_date: 2022-06
-        end_date: 2025-02
-
-        highlights:
-          - Designed and implemented reusable Terraform modules and standard guidelines to enable secure, scalable, and compliant deployments on Azure, aligned with organizational standards.
-          - Managed Azure resources across hundreds of subscriptions using Landing Zone architecture to ensure consistency, compliance, and high performance.
-          - Configured, maintained, and optimized Azure networking components—including VNets, peering, VPN gateways, subnets, and Azure Firewall, ensuring adherence to compliance policies and alignment with industry security standards like OWASP.
-          - Provided architectural support for developers during the migration of repositories from AWS to Azure, integrating and enhancing workflows which using JavaScript and TypeScript.
-          - Configured Keycloak for SSO and OIDC, integrating identity providers using information programmatically extracted from documentation with a custom-built tool.
-          - Set up Apache JMeter for distributed performance testing to verify system reliability under high load.
-
-      - company: Personal Homelab
-        position: System Operator & Developer
-        start_date: 2024-06
-        end_date: present
-
-        highlights:
-          - Designed a pipeline to collect, process, and organize hundreds of gigabytes of text files using Python, Rust, and GNU Parallel; utilized Pydantic, FastAPI, and SQLModel for data validation, API handling, and structured storage.
-          - Built a hybrid cluster combining an old laptop and cloud VMs, utilizing WireGuard VPN and deploying services with K3s and Helm.
-
+      # NOTE:
+      # Current role focused on standardizing infrastructure and improving
+      # DevOps practices across multi-cloud environments. Main contributions
+      # include migrating unmanaged resources to Terraform, internal tooling,
+      # VPN setup, cost monitoring, and supporting teams on CI/CD and version
+      # control modernization. Also involved in building internal integration
+      # solutions and compliance reporting.
       - company: Codelink
         position: DevOps Engineer
         start_date: 2025-03
         end_date: present
 
         highlights:
-          - Migrated Keycloak configurations and multi-cloud resources (Azure, AWS, GCP) to Terraform-managed infrastructure, significantly reducing manual configuration and operational overhead.
-          - Deployed a secure, high-performance WireGuard VPN and internal administration portal for DevOps teams.
-          - Centralized cost and usage monitoring across Azure, AWS, GCP, and GitHub Actions using Grafana and custom dashboards.
-          - Guided teams in version control modernization, migrating from SVN to Git and Azure DevOps with best practices.
-          - Designed and maintained Azure Pipelines to streamline CI/CD workflows while ensuring compatibility with legacy systems.
+          - Migrated existing cloud resources (Azure, AWS, GCP) to Terraform, identifying unmanaged resources and bringing them under infrastructure-as-code.
+          - Converted manual Keycloak configurations into Terraform-managed state for consistency and maintainability.
+          - Deployed an internal WireGuard VPN using Terraform and Ansible, including admin dashboard, monitoring (Grafana), and user portal for device registration.
+          - Contributed to centralized cost and usage monitoring across Azure, AWS, GCP, and GitHub Actions using Grafana dashboards.
+          - Guided teams in migrating from SVN to Git and Azure DevOps, establishing version control best practices.
+          - Designed and maintained Azure Pipelines to support CI/CD workflows while ensuring compatibility with legacy systems.
+          - Built pipelines to collect and report compliance and policy issues across Azure DevOps environments.
+          - Developed a central integration solution acting as a proxy between Azure Service Bus and legacy applications.
 
     Certifications:
       - bullet: "**AZ900 - Azure Fundamentals** - Microsoft"
@@ -94,6 +99,104 @@ cv:
         highlights:
           - "**GPA**: 8.00/10.00"
 
+    Activities:
+      # NOTE:
+      # System Operator for UIT Competitive Programming Contest (UCPC).
+      # Responsible for deploying and maintaining the contest infrastructure.
+      # Used Docker to run Domjudge system: admin dashboard, 7 judge containers,
+      # and a public scoreboard. Configured Nginx to make scoreboard publicly
+      # accessible while keeping admin and judge containers local only.
+      # Imported team, university, and high school data from spreadsheets,
+      # standardized names, and created accounts before contest day.
+      # Monitored judge servers during contests to recover failures and ensure
+      # continuous scoring. Configured compilers and submission formats for
+      # special problems. Collected runtime and memory metrics to help teachers
+      # set problem limits. Ran post-contest scoreboard animations with Domjudge.
+      # Proposed a custom web-based scoreboard animation system for easier
+      # control and modernization. Trained new organizer members to maintain
+      # the system in future years.
+      - company: UIT (VNUHCM) - Competitive Programming Contest
+        position: System Operator
+        start_date: 2019-09
+        end_date: 2020-12
+
+        highlights:
+          - Set up and maintained contest system infrastructure using Docker for Domjudge, including admin dashboard, judge containers (7 workers), and public scoreboard.
+          - Configured Nginx to make scoreboard publicly accessible while keeping admin and judge containers restricted to local network.
+          - Imported team, university, and high school data from spreadsheets, standardized names, and created accounts for contest participants.
+          - Monitored and recovered judge servers during contests to ensure scoring continuity.
+          - Configured compilers and submission formats for special contest problems.
+          - Collected metrics (memory usage, runtime) to help teachers set problem limits.
+          - Ran post-contest scoreboard animations using Domjudge tools.
+          - Proposed and implemented a custom web-based scoreboard animation system for easier control and modernized experience.
+          - Trained new organizer members to maintain contest systems independently for following years.
+
+      # NOTE:
+      # Internal faculty program to identify and train future student leaders.
+      # Covers organizing, communication, design, and technical skills.
+      # Involved across multiple years as both organizer and mentor.
+      # Initially contributed to program setup and media design, later focused
+      # on mentoring and consulting. Mentored students in both design and
+      # technical areas, helping prepare next generation to maintain faculty
+      # activities, systems, and events.
+      - company: UIT (VNUHCM) - Trainee Program
+        position: Organizer & Mentor
+        start_date: 2020
+        end_date: present
+
+        highlights:
+          - Contributed to organizing a multi-stage training program (selection, interviews, training, evaluation) to identify and develop future student leaders.
+          - Designed media materials (posts, posters, standees) for program communication in early phases.
+          - Mentored students in technical topics including Git, programming fundamentals, and development workflows.
+          - Guided students in understanding real-world engineering practices such as Docker, cloud usage, and team workflows.
+          - Supported and advised junior members through discussions and problem-solving sessions.
+          - Helped ensure continuity of technical and organizing teams by training and evaluating new core members.
+          - Mentored students in graphic design fundamentals, including layout, hierarchy, typography, and color usage.
+          - Introduced tools and workflows for design and collaboration.
+
+    "Side Projects":
+      # NOTE:
+      # Personal homelab project to experiment with distributed systems,
+      # networking, and high-performance data processing. Built a small
+      # hybrid cluster using local machines and cloud VM. Focus on learning
+      # Kubernetes (K3s), infrastructure setup, and optimizing large-scale
+      # text processing workflows using Rust.
+      - company: Personal Homelab
+        position: System Operator & Developer
+        start_date: 2024-06
+        end_date: present
+
+        highlights:
+          - Built a hybrid cluster using a PC, a repaired laptop, and an AWS EC2 instance, connected via WireGuard VPN.
+          - Configured EC2 as a NAT gateway, laptop as master node, and other machines as worker nodes.
+          - Managed cluster using K3s and deployed services with Helm for testing and personal use.
+          - Designed a pipeline to collect, process, and organize 100+ GB of text data.
+          - Developed a high-performance Rust tool using multithreading (crossbeam) to process text with 30+ regex operations.
+          - Achieved processing speed of ~12,000 files/second, completing large datasets within minutes.
+          - Previously used Python with GNU Parallel, later optimized by replacing with a Rust-based solution.
+
+      # NOTE:
+      # Ongoing project to design a declarative compiler for systemd-based
+      # infrastructure. Focus on treating system configuration as a compilation
+      # problem instead of orchestration. Defines a full configuration language
+      # (HCL-based) with strict mapping to systemd concepts. Emphasis on
+      # determinism, validation, and developer experience (LSP support).
+      - company: UnitD
+        position: Developer
+        start_date: 2026-02
+        end_date: present
+
+        highlights:
+          - Design a declarative configuration language (HCL-based) for systemd-based infrastructure.
+          - Define a compiler pipeline (parse → validate → resolve → materialize → render → apply).
+          - Model infrastructure using explicit blocks mapped 1:1 to systemd units and subsystems.
+          - Define host-scoped execution model with no shared state or cross-host coordination.
+          - Enforce strict validation rules for conflicts, references, and configuration correctness.
+          - Ensure deterministic output with stable ordering and reproducible rendering.
+          - Avoid traditional orchestration patterns (no agents, no control plane, no reconciliation loops).
+          - Structure implementation in Go with clear separation between AST, IR, and rendered output.
+          - Plan Language Server Protocol (LSP) support for navigation, validation, and better developer experience.
+
     Skills:
       - "**Programming**: Python, JavaScript, TypeScript, C#"
       - "**Cloud & IaC**: Terraform, Azure, AWS, GCP, Azure Landing Zone, Backblaze, Policy-as-Code"
@@ -101,10 +204,3 @@ cv:
       - "**Scripting & Programming**: Python, Go, Bash, Rust, Ansible Playbooks"
       - "**Networking & Security**: WireGuard VPN, Azure Firewall, VNets, Peering, TLS Inspection, OIDC, SSO, IAM, RBAC, Compliance Management"
       - "**Collaboration & Communication**: Experienced in international and cross-time-zone environments; Cross-time-zone teamwork (PL, DK, NL, PH), Git workflows, Code Review, Technical Documentation, DevOps Culture Enablement"
-
-    Side_Projects:
-      - >
-        [Lissajous Curve](https://accodius.com/creative-coding/lissajous-curve/) |
-        [Richard Feynman's Ellipse](https://accodius.com/creative-coding/richard-feynmen-ellipse/) |
-        [Scheduling Algorithms](https://vanviethieuanh.github.io/scheduling-algorithms/) |
-        [Page Replacement Algorithms](https://vanviethieuanh.github.io/page-replacement-algorithms/) |
