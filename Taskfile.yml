@@ -5,7 +5,7 @@ tasks:
     desc: Render all CV using rendercv
     deps: [setup]
     cmds:
-      - rm -r rendered
+      - rm -rf rendered
       - mkdir -p rendered
       - task: render-cvs
       - find . -iname '*Van_Viet_Hieu_Anh_CV*' -delete
@@ -26,7 +26,8 @@ tasks:
       CV:
         sh: find . -maxdepth 1 \( -name 'cv_*.yaml' -o -name 'cv_*.yml' \)
 
-    deps:
+    # NOTE: Currently, rendercv have concurrent issue
+    cmds:
       - for: { var: CV }
         task: render-cv
         vars:
@@ -38,6 +39,5 @@ tasks:
       - >
         .venv/bin/rendercv render {{ .FILE }}
         --design ./design.yaml
-        --output-folder-name ./build
         --pdf-path ./rendered/{{ .FILE | base | trimSuffix ".yaml" | trimSuffix ".yml" | trimPrefix "cv_" }}.pdf
-        -nomd -nohtml -nopng
+        --dont-generate-markdown --dont-generate-html --dont-generate-png

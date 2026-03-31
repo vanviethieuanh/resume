@@ -1,0 +1,110 @@
+cv:
+  name: Van Viet Hieu Anh
+  email: vanviethieuanh@gmail.com
+  phone: "+84946378852"
+
+  social_networks:
+    - network: LinkedIn
+      username: vanviethieuanh
+
+  sections:
+    _:
+      - >
+        I have a strong foundation and years of experience with Asynchronous and Parallel Processing in Python, 
+        including concepts like Mutex, Arc, and Semaphore. Over the years building such applications, 
+        I continuously synthesize practical insights and never hesitate to explore alternative approaches to solving complex problems.
+
+      - DevOps and Cloud Engineer with 3+ years of experience automating multi-cloud infrastructure and CI/CD pipelines. Focused on building efficient, reliable, and scalable systems while collaborating with international teams.
+
+    Experiences:
+      - company: UIT (VNUHCM) - Competitive Programming Contest
+        position: System Operator
+        start_date: 2019-09
+        end_date: 2020-12
+
+        highlights:
+          - Implemented and maintained ICPC contest systems using Docker and Nginx to ensure high-demand performance and reliability.
+
+      - company: Netcompany - Flexdanmark
+        position: Consultant
+        start_date: 2022-06
+        end_date: 2023-01
+
+        highlights:
+          - Developed a Python application to scan documents and assist in generating accurate authentication system configurations.
+          - Configured Keycloak for SSO and OIDC integration with multiple identity providers and hundreds of user roles.
+          - Performed system performance testing and tuning.
+
+      - company: Netcompany - NLP (Nordea Life & Pension)
+        position: Consultant
+        start_date: 2023-01
+        end_date: 2025-02
+
+        highlights:
+          - Implemented a Python application to automatically synchronize, analyze, and generate reports using asyncio with semaphores for controlling concurrent tasks.
+          - Built a custom Azure DevOps Python task to synchronize and validate Azure APIM API configurations across repositories.
+          - Migrated repositories from AWS to Azure, integrating and optimizing with JavaScript/TypeScript.
+
+      - company: Netcompany - Projects for Nordea Bank, Topdanmark & FlexDanmark
+        position: Consultant
+        start_date: 2022-06
+        end_date: 2025-02
+
+        highlights:
+          - Designed and implemented reusable Terraform modules and standard guidelines to enable secure, scalable, and compliant deployments on Azure, aligned with organizational standards.
+          - Managed Azure resources across hundreds of subscriptions using Landing Zone architecture to ensure consistency, compliance, and high performance.
+          - Configured, maintained, and optimized Azure networking components—including VNets, peering, VPN gateways, subnets, and Azure Firewall, ensuring adherence to compliance policies and alignment with industry security standards like OWASP.
+          - Provided architectural support for developers during the migration of repositories from AWS to Azure, integrating and enhancing workflows which using JavaScript and TypeScript.
+          - Configured Keycloak for SSO and OIDC, integrating identity providers using information programmatically extracted from documentation with a custom-built tool.
+          - Set up Apache JMeter for distributed performance testing to verify system reliability under high load.
+
+      - company: Personal Homelab
+        position: System Operator & Developer
+        start_date: 2024-06
+        end_date: present
+
+        highlights:
+          - Designed a pipeline to collect, process, and organize hundreds of gigabytes of text files using Python, Rust, and GNU Parallel; utilized Pydantic, FastAPI, and SQLModel for data validation, API handling, and structured storage.
+          - Built a hybrid cluster combining an old laptop and cloud VMs, utilizing WireGuard VPN and deploying services with K3s and Helm.
+
+      - company: Codelink
+        position: DevOps Engineer
+        start_date: 2025-03
+        end_date: present
+
+        highlights:
+          - Migrated Keycloak configurations and multi-cloud resources (Azure, AWS, GCP) to Terraform-managed infrastructure, significantly reducing manual configuration and operational overhead.
+          - Deployed a secure, high-performance WireGuard VPN and internal administration portal for DevOps teams.
+          - Centralized cost and usage monitoring across Azure, AWS, GCP, and GitHub Actions using Grafana and custom dashboards.
+          - Guided teams in version control modernization, migrating from SVN to Git and Azure DevOps with best practices.
+          - Designed and maintained Azure Pipelines to streamline CI/CD workflows while ensuring compatibility with legacy systems.
+
+    Certifications:
+      - bullet: "**AZ900 - Azure Fundamentals** - Microsoft"
+      - bullet: "**IELTS Academic – Overall Band 6.5** - British Council / IDP / Cambridge"
+      - bullet: "**Computational Thinking for Problem Solving** - University of Pennsylvania"
+
+    Education:
+      - institution: University of Information Technology - VNUHCM
+        area: Computer Science
+        degree: BS
+        start_date: 2019-09
+        end_date: 2023-11
+
+        highlights:
+          - "**GPA**: 8.00/10.00"
+
+    Skills:
+      - "**Programming**: Python, JavaScript, TypeScript, C#"
+      - "**Cloud & IaC**: Terraform, Azure, AWS, GCP, Azure Landing Zone, Backblaze, Policy-as-Code"
+      - "**DevOps & Automation**: Azure DevOps, GitHub Actions, Jenkins, Taskfile, CI/CD Pipelines, Ansible, Docker, Containerization"
+      - "**Scripting & Programming**: Python, Go, Bash, Rust, Ansible Playbooks"
+      - "**Networking & Security**: WireGuard VPN, Azure Firewall, VNets, Peering, TLS Inspection, OIDC, SSO, IAM, RBAC, Compliance Management"
+      - "**Collaboration & Communication**: Experienced in international and cross-time-zone environments; Cross-time-zone teamwork (PL, DK, NL, PH), Git workflows, Code Review, Technical Documentation, DevOps Culture Enablement"
+
+    Side_Projects:
+      - >
+        [Lissajous Curve](https://accodius.com/creative-coding/lissajous-curve/) |
+        [Richard Feynman's Ellipse](https://accodius.com/creative-coding/richard-feynmen-ellipse/) |
+        [Scheduling Algorithms](https://vanviethieuanh.github.io/scheduling-algorithms/) |
+        [Page Replacement Algorithms](https://vanviethieuanh.github.io/page-replacement-algorithms/) |

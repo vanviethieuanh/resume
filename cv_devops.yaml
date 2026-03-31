@@ -1,6 +1,7 @@
 cv:
   name: Van Viet Hieu Anh
   email: vanviethieuanh@gmail.com
+  phone: "+84946378852"
 
   social_networks:
     - network: LinkedIn
@@ -23,7 +24,7 @@ cv:
           - Guided teams in version control modernization, migrating from SVN to Git and Azure DevOps with best practices.
           - Designed and maintained Azure Pipelines to streamline CI/CD workflows while ensuring compatibility with legacy systems.
 
-      - company: Netcompany - NLP & Flexdanmark Projects
+      - company: Netcompany - Projects for Nordea Bank, Topdanmark & FlexDanmark
         position: Consultant
         start_date: 2022-06
         end_date: 2025-02
@@ -38,6 +39,7 @@ cv:
 
     Certifications:
       - bullet: "**AZ900 - Azure Fundamentals** - Microsoft"
+      - bullet: "**IELTS Academic – Overall Band 6.5** - British Council / IDP / Cambridge"
       - bullet: "**Computational Thinking for Problem Solving** - University of Pennsylvania"
 
     Education:
