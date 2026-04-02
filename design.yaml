@@ -3,8 +3,8 @@ design:
 
   page:
     size: a4
-    top_margin: 0.7cm
-    bottom_margin: 0.7cm
+    top_margin: 1.0cm
+    bottom_margin: 1.0cm
     left_margin: 1.0cm
     right_margin: 1.0cm
     show_footer: false
