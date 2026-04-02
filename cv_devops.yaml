@@ -6,36 +6,73 @@ cv:
   social_networks:
     - network: LinkedIn
       username: vanviethieuanh
+    - network: GitHub
+      username: vanviethieuanh
 
   sections:
     _:
-      - DevOps and Cloud Engineer with 3+ years of experience automating multi-cloud infrastructure and CI/CD pipelines. Focused on building efficient, reliable, and scalable systems while collaborating with international teams.
+      - >
+        DevOps and Cloud Engineer with 3+ years of experience automating multi-cloud infrastructure and CI/CD pipelines.
 
     Experiences:
+      # NOTE:
+      # Current role focused on standardizing infrastructure and improving
+      # DevOps practices across multi-cloud environments. Main contributions
+      # include migrating unmanaged resources to Terraform, internal tooling,
+      # VPN setup, cost monitoring, and supporting teams on CI/CD and version
+      # control modernization. Also involved in building internal integration
+      # solutions and compliance reporting.
       - company: Codelink
         position: DevOps Engineer
         start_date: 2025-03
         end_date: present
 
         highlights:
-          - Migrated Keycloak configurations and multi-cloud resources (Azure, AWS, GCP) to Terraform-managed infrastructure, significantly reducing manual configuration and operational overhead.
-          - Deployed a secure, high-performance WireGuard VPN and internal administration portal for DevOps teams.
-          - Centralized cost and usage monitoring across Azure, AWS, GCP, and GitHub Actions using Grafana and custom dashboards.
-          - Guided teams in version control modernization, migrating from SVN to Git and Azure DevOps with best practices.
-          - Designed and maintained Azure Pipelines to streamline CI/CD workflows while ensuring compatibility with legacy systems.
+          - Migrated existing cloud resources (Azure, AWS, GCP) to Terraform, identifying unmanaged resources and bringing them under infrastructure-as-code.
+          - Converted manual Keycloak configurations into Terraform-managed state for consistency and maintainability.
+          - Deployed an internal WireGuard VPN using Terraform and Ansible, including admin dashboard, monitoring with Grafana, and user portal for device registration.
+          - Contributed to centralized cost and usage monitoring across Azure, AWS, GCP, and GitHub Actions using Grafana dashboards.
+          - Guided teams in migrating from SVN to Git and Azure DevOps, establishing version control best practices.
+          - Designed and maintained Azure Pipelines to support CI/CD workflows while ensuring compatibility with legacy systems.
+          - Developed a central integration solution acting as a proxy between Azure Service Bus and legacy applications.
 
-      - company: Netcompany - Projects for Nordea Bank, Topdanmark & FlexDanmark
+      # NOTE:
+      # Main project: migration of Nordea Life & Pension system from AWS to Azure.
+      # Started as a developer migrating legacy JS microservices, then moved to
+      # DevOps role due to project needs. Focused on Terraform, Azure governance,
+      # networking, and supporting multiple teams. Heavy emphasis on standardizing
+      # infrastructure, ensuring compliance, and reducing manual setup effort.
+      - company: Netcompany - Nordea Bank
         position: Consultant
-        start_date: 2022-06
+        start_date: 2023-01
         end_date: 2025-02
 
         highlights:
-          - Designed and implemented reusable Terraform modules and standard guidelines to enable secure, scalable, and compliant deployments on Azure, aligned with organizational standards.
-          - Managed Azure resources across hundreds of subscriptions using Landing Zone architecture to ensure consistency, compliance, and high performance.
-          - Configured, maintained, and optimized Azure networking components—including VNets, peering, VPN gateways, subnets, and Azure Firewall, ensuring adherence to compliance policies and alignment with industry security standards like OWASP.
-          - Provided architectural support for developers during the migration of repositories from AWS to Azure, integrating and enhancing workflows which using JavaScript and TypeScript.
-          - Configured Keycloak for SSO and OIDC, integrating identity providers using information programmatically extracted from documentation with a custom-built tool.
-          - Set up Apache JMeter for distributed performance testing to verify system reliability under high load.
+          - Managed and supported infrastructure across 200+ Azure subscriptions using Landing Zone architecture.
+          - Assisted teams with Azure Firewall configuration and TLS inspection integration.
+          - Supported VNet design and subnet allocation across teams, including planning and documentation.
+          - Developed reusable Terraform modules to enforce compliance and standardize infrastructure provisioning.
+          - Standardized Azure Entra ID Application Registration using Terraform modules with naming conventions and automation.
+          - Assisted in integrating systems with external services (e.g., MitID).
+          - Supported multiple teams in adopting Terraform, including writing documentation and usage guides.
+          - Built CI/CD pipelines to generate reports on code changes and policy compliance.
+          - Automated secret management by integrating Application Registrations with Azure Key Vault and expiry alerts.
+
+      # NOTE:
+      # Early career project at Netcompany for FlexDanmark (transport system).
+      # Worked mainly on backend support tasks, Keycloak configuration, and
+      # testing. Built internal tools to automate role management from messy
+      # Word documents. Also contributed to .NET utilities and performance
+      # testing setup. Focus was on improving maintainability and reducing
+      # manual work for role and access control.
+      - company: Netcompany - FlexDanmark
+        position: Consultant
+        start_date: 2022-06
+        end_date: 2023-01
+
+        highlights:
+          - Streamlined Keycloak SSO/OIDC role management by creating a Python automation pipeline that converted unstructured API-role specs into structured Excel data, applied a compact naming convention, and synced configurations to Keycloak.
+          - Planned and executed JMeter performance testing, including distributed test setup.
 
     Certifications:
       - bullet: "**AZ900 - Azure Fundamentals** - Microsoft"
@@ -53,8 +90,8 @@ cv:
           - "**GPA**: 8.00/10.00"
 
     Skills:
+      - "**Programming**: Python, JavaScript, TypeScript, C#"
       - "**Cloud & IaC**: Terraform, Azure, AWS, GCP, Azure Landing Zone, Backblaze, Policy-as-Code"
-      - "**DevOps & Automation**: Azure DevOps, GitHub Actions, Jenkins, Taskfile, CI/CD, Ansible, Docker"
-      - "**Scripting & Programming**: Python, Go, Bash, Rust, Ansible Playbooks"
+      - "**DevOps & Automation**: Azure DevOps, GitHub Actions, Jenkins, Taskfile, CI/CD Pipelines, Ansible, Docker"
+      - "**Scripting & Programming**: Powershell, Bash, Ansible"
       - "**Networking & Security**: WireGuard VPN, Azure Firewall, VNets, Peering, TLS Inspection, OIDC, SSO, IAM, RBAC, Compliance Management"
-      - "**Collaboration & Communication**: Cross-time-zone teamwork (PL, DK, NL, PH), Git workflows, Code Review, Technical Documentation, DevOps Culture Enablement"

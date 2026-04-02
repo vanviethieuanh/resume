@@ -3,19 +3,19 @@ design:
 
   page:
     size: a4
-    top_margin: 1.0cm
-    bottom_margin: 1.0cm
-    left_margin: 1.3cm
-    right_margin: 1.3cm
+    top_margin: 0.7cm
+    bottom_margin: 0.7cm
+    left_margin: 1.0cm
+    right_margin: 1.0cm
     show_footer: false
     show_top_note: true
 
   colors:
     body: rgb(0, 0, 0)
-    name: rgb(0, 79, 144)
-    connections: rgb(0, 79, 144)
-    section_titles: rgb(0, 79, 144)
-    links: rgb(0, 79, 144)
+    name: rgb(0, 0, 0)
+    connections: rgb(28, 28, 30)
+    section_titles: rgb(0, 0, 0)
+    links: rgb(0, 0, 0)
     footer: rgb(128, 128, 128)
     top_note: rgb(128, 128, 128)
 
@@ -33,11 +33,13 @@ design:
     font_size:
       body: 9.6pt
       name: 22pt
-      section_titles: 1.4em
+      headline: 10pt
+      connections: 8.5pt
+      section_titles: 16pt
 
     bold:
-      name: false
-      section_titles: false
+      name: true
+      section_titles: true
 
     small_caps:
       section_titles: false
@@ -62,7 +64,7 @@ design:
   section_titles:
     type: with_partial_line
     line_thickness: 0.5pt
-    space_above: 0.5cm
+    space_above: 0.75cm
     space_below: 0.3cm
 
   sections:
@@ -72,18 +74,18 @@ design:
 
   entries:
     date_and_location_width: 3.8cm
-    side_space: 0.15cm
+    side_space: 0.05cm
     space_between_columns: 0.08cm
     allow_page_break: true
-    short_second_row: true
+    short_second_row: false
 
     highlights:
       bullet: •
       nested_bullet: •
       space_left: 0cm
       space_above: 0.1cm
-      space_between_items: 0.12cm
-      space_between_bullet_and_text: 0.4em
+      space_between_items: 0.08cm
+      space_between_bullet_and_text: 0.3em
 
   templates:
     one_line_entry:
