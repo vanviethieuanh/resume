@@ -28,13 +28,13 @@ cv:
         end_date: present
 
         highlights:
-          - Migrated existing cloud resources (Azure, AWS, GCP) to Terraform, identifying unmanaged resources and bringing them under infrastructure-as-code.
-          - Converted manual Keycloak configurations into Terraform-managed state for consistency and maintainability.
-          - Deployed an internal WireGuard VPN using Terraform and Ansible, including admin dashboard, monitoring with Grafana, and user portal for device registration.
-          - Contributed to centralized cost and usage monitoring across Azure, AWS, GCP, and GitHub Actions using Grafana dashboards.
-          - Guided teams in migrating from SVN to Git and Azure DevOps, establishing version control best practices.
-          - Designed and maintained Azure Pipelines to support CI/CD workflows while ensuring compatibility with legacy systems.
-          - Developed a central integration solution acting as a proxy between Azure Service Bus and legacy applications.
+          - Migrated unmanaged Azure, AWS, and GCP resources to Terraform, enforcing infrastructure-as-code and consistency.
+          - Standardized Keycloak configurations through Terraform for maintainable identity management.
+          - Deployed internal WireGuard VPN with Terraform and Ansible, including admin dashboard, monitoring via Grafana, and user portal for device registration.
+          - Centralized multi-cloud cost and usage monitoring across Azure, AWS, GCP, and GitHub Actions using Grafana dashboards.
+          - Guided teams from SVN to Git/Azure DevOps, establishing version control best practices.
+          - Built and maintained Azure Pipelines to support CI/CD workflows compatible with legacy systems.
+          - Developed a central integration proxy connecting Azure Service Bus with legacy applications for seamless communication.
 
       # NOTE:
       # Main project: migration of Nordea Life & Pension system from AWS to Azure.
@@ -48,15 +48,14 @@ cv:
         end_date: 2025-02
 
         highlights:
-          - Managed and supported infrastructure across 200+ Azure subscriptions using Landing Zone architecture.
-          - Assisted teams with Azure Firewall configuration and TLS inspection integration.
-          - Supported VNet design and subnet allocation across teams, including planning and documentation.
-          - Developed reusable Terraform modules to enforce compliance and standardize infrastructure provisioning.
-          - Standardized Azure Entra ID Application Registration using Terraform modules with naming conventions and automation.
-          - Assisted in integrating systems with external services (e.g., MitID).
-          - Supported multiple teams in adopting Terraform, including writing documentation and usage guides.
-          - Built CI/CD pipelines to generate reports on code changes and policy compliance.
-          - Automated secret management by integrating Application Registrations with Azure Key Vault and expiry alerts.
+          - Orchestrated infrastructure across 200+ Azure subscriptions using Landing Zone architecture, ensuring compliance and scalability.
+          - Secured team networks by designing VNets, subnets, and Azure Firewalls with TLS inspection.
+          - Reduced manual setup and enforced standards by developing reusable Terraform modules for infrastructure provisioning.
+          - Automated Azure Entra ID Application Registrations with Terraform, enforcing naming conventions and lifecycle management.
+          - Streamlined authentication by integrating systems with external services such as MitID.
+          - Accelerated team adoption of Terraform by providing documentation, usage guides, and onboarding support.
+          - Monitored compliance and code changes through automated CI/CD pipelines generating policy reports.
+          - Improved security posture by automating secret management with Azure Key Vault and implementing expiry alerts for Application Registrations.
 
       # NOTE:
       # Early career project at Netcompany for FlexDanmark (transport system).
@@ -72,7 +71,7 @@ cv:
 
         highlights:
           - Streamlined Keycloak SSO/OIDC role management by creating a Python automation pipeline that converted unstructured API-role specs into structured Excel data, applied a compact naming convention, and synced configurations to Keycloak.
-          - Planned and executed JMeter performance testing, including distributed test setup.
+          - Conducted JMeter performance tests with distributed setups, analyzing results via Elasticsearch/Kibana to identify and resolve system bottlenecks.
 
     Certifications:
       - bullet: "**AZ900 - Azure Fundamentals** - Microsoft"
