@@ -1,0 +1,128 @@
+cv:
+  name: Van Viet Hieu Anh
+  email: vanviethieuanh@gmail.com
+  phone: "+84946378852"
+  social_networks:
+    - network: LinkedIn
+      username: vanviethieuanh
+    - network: GitHub
+      username: vanviethieuanh
+
+  sections:
+    Summary:
+      - >
+        DevOps and Cloud Engineer with 3+ years of experience working on distributed
+        systems and scalable infrastructure across multi-cloud environments.
+        Experienced in building declarative system configurations, high-performance
+        data pipelines, and modular frameworks. Particularly interested in systems
+        design, improving how infrastructure is defined and managed, and efficient
+        data processing.
+
+    Education:
+      - institution: University of Information Technology - VNUHCM
+        area: Computer Science
+        degree: BSc
+        start_date: 2019-09
+        end_date: 2023-11
+        highlights:
+          - "GPA: 8.00/10.00"
+
+    Projects:
+      - company: UnitD
+        position: Developer
+        start_date: 2026-02
+        end_date: present
+        summary: >
+          Designed in response to inefficiencies in running multiple internal microservices
+          with varying usage patterns (daily, weekly, seasonal). Existing container-based
+          approaches introduced trade-offs between cost (always-on containers) and latency
+          (cold-start delays affecting user experience and integrations). Proposed a
+          systemd-based approach using a centralized VM to optimize cost and reliability,
+          leading to the development of a declarative configuration language for system-level
+          infrastructure.
+        highlights:
+          - Designed a declarative configuration language (HCL-based) for systemd-based infrastructure.
+          - Built a compiler pipeline (parse → validate → resolve → render → apply).
+          - Enabled secure secret integration and deterministic configuration rendering.
+          - Replaced ad-hoc Ansible-based setups with structured, validated configurations.
+          - Planned Language Server Protocol (LSP) support for validation and developer experience.
+          - Explored system configuration as a compilation problem rather than orchestration.
+
+      - company: Personal Homelab – Web Novel Audio Project
+        position: System Engineer & Developer
+        start_date: 2025-01
+        end_date: present
+        summary: >
+          Designed a high-performance pipeline to convert large-scale Chinese web novel datasets
+          into Vietnamese audiobooks and multimedia content, focusing on efficient storage,
+          concurrency, and multi-stage data processing.
+        highlights:
+          - Designed data pipelines to process large-scale web novel datasets (≈4 million chapters).
+          - Built an efficient storage system combining SQLite and Zstandard compression to optimize read/write performance and disk usage.
+          - Developed multi-threaded processing pipelines in Rust (crossbeam, rayon) for transformation, translation, and media generation.
+          - Implemented caching mechanisms to avoid redundant transformations based on content hashing.
+          - Managed concurrent TTS generation and FFmpeg-based audio/video composition workflows.
+          - Built and operated a hybrid cluster (local machines + cloud VM) using K3s, enabling distributed workloads and experimentation with container orchestration.
+
+      - company: Iron Spider
+        position: Developer
+        start_date: 2025-06
+        end_date: present
+        summary: >
+          Designed a strongly-typed, modular web scraping framework in Rust inspired by
+          Scrapy, focusing on extensibility, pipeline-based data processing, and
+          concurrent execution.
+        highlights:
+          - Designed a trait-based architecture for pluggable components (spiders, pipelines, schedulers, downloaders).
+          - Implemented a pipeline system for post-processing scraped data with configurable execution order and type safety.
+          - Built a concurrent scraping engine with configurable scheduling, request handling, and error management.
+          - Developed a terminal-based UI (TUI) for real-time monitoring of logs, request statistics, and system performance.
+          - Enabled flexible configuration to instantiate and compose multiple spiders and pipelines dynamically.
+          - Modeled scraping workflows as composable, type-safe pipelines enabling flexible data extraction and transformation.
+
+    Experience:
+      - company: Codelink
+        position: DevOps Engineer
+        start_date: 2025-03
+        end_date: present
+        highlights:
+          - Migrated multi-cloud infrastructure (Azure, AWS, GCP) into Terraform-managed environments.
+          - Designed and deployed internal VPN infrastructure using WireGuard with monitoring and automation.
+          - Built centralized dashboards for cost and usage monitoring across cloud platforms.
+          - Designed CI/CD pipelines and improved development workflows across teams.
+          - Designed and implemented a proxy layer to bridge event-driven architectures (Dapr) with legacy REST-based applications.
+
+      - company: Netcompany - NLP (Nordea Life & Pension)
+        position: Consultant
+        start_date: 2023-01
+        end_date: 2025-02
+        highlights:
+          - Contributed to large-scale migration of distributed systems from AWS to Azure while preserving existing service architecture.
+          - Designed and implemented Terraform modules to standardize infrastructure provisioning across multiple teams.
+          - Solved cross-team infrastructure challenges including networking, identity management, and secure service integration.
+          - Supported system integration across heterogeneous components (HTTP services, event-driven systems).
+          - Worked on infrastructure at scale across 200+ subscriptions using Landing Zone architecture.
+
+      - company: Netcompany - FlexDanmark
+        position: Consultant
+        start_date: 2022-06
+        end_date: 2023-01
+        highlights:
+          - Designed automation workflows to transform unstructured specification documents into structured access control configurations.
+          - Built asynchronous data processing tools in Python to synchronize large-scale role mappings into Keycloak.
+          - Worked with identity and access management systems (SSO, OIDC) to integrate role-based authorization across services.
+          - Improved maintainability of role configuration by introducing structured naming and mapping conventions.
+
+    Certifications:
+      - bullet: "AZ-900 – Microsoft Azure Fundamentals"
+      - bullet: "IELTS Academic – Overall Band 6.5"
+
+    Activities:
+      - company: UIT Competitive Programming Contest
+        position: System Operator
+        start_date: 2019-09
+        end_date: 2020-12
+        highlights:
+          - Deployed and maintained contest infrastructure using Docker and Domjudge.
+          - Managed judge servers and ensured system reliability during live contests.
+          - Automated participant data import and system configuration.
