@@ -1,0 +1,131 @@
+cv:
+  name: Van Viet Hieu Anh
+  email: vanviethieuanh@gmail.com
+  phone: "+84946378852"
+
+  social_networks:
+    - network: LinkedIn
+      username: vanviethieuanh
+    - network: GitHub
+      username: vanviethieuanh
+
+  sections:
+    Summary:
+      - >
+        Engineer with 3+ years of experience working on distributed systems and
+        networked infrastructure across multi-cloud environments. Experienced in
+        designing scalable services, data processing pipelines, and communication
+        between heterogeneous systems. Particularly interested in distributed
+        communication, networked systems, and performance of large-scale services.
+
+    Technical Skills:
+      - label: Programming
+        details: Rust, Python, Go
+      - label: Infrastructure & Cloud
+        details: Terraform, Kubernetes (K3s), Docker, systemd
+      - label: Distributed Systems
+        details: Dapr, event-driven architecture, microservices
+      - label: Networking
+        details: WireGuard, VPN design, AWS, Azure, GCP
+      - label: Data & Storage
+        details: SQLite, data pipelines, caching, Zstandard
+
+    Education:
+      - institution: University of Information Technology - VNUHCM
+        area: Computer Science
+        degree: BSc
+        start_date: 2019-09
+        end_date: 2023-11
+        highlights:
+          - "GPA: 8.00/10.00"
+
+    Projects:
+      - name: UnitD
+        start_date: 2026-02
+        end_date: present
+        summary: >
+          Designed a system to manage microservices with varying usage patterns,
+          addressing inefficiencies in container-based deployments. Proposed a
+          systemd-based approach to improve cost efficiency and reliability, leading
+          to the development of a declarative configuration language for managing
+          distributed services.
+        highlights:
+          - Designed a declarative configuration language (HCL-based) for managing system-level services.
+          - Built a pipeline (parse → validate → resolve → render → apply) to transform configurations into executable system states.
+          - Enabled deterministic configuration and secure secret handling across services.
+          - Improved reliability of service deployment compared to ad-hoc orchestration approaches.
+          - Explored system configuration as a structured transformation process rather than manual orchestration.
+
+      - name: Web Novel Audio Pipeline (Homelab)
+        start_date: 2025-01
+        end_date: present
+        summary: >
+          Built a distributed pipeline to process large-scale web novel datasets
+          into multimedia content, focusing on efficient data flow, concurrency,
+          and coordination across multiple processing stages.
+        highlights:
+          - Designed data pipelines to process ~4 million chapters across multiple stages.
+          - Developed concurrent processing systems in Rust for transformation, translation, and media generation.
+          - Built and operated a hybrid cluster (local machines + cloud VM) using K3s to coordinate distributed workloads.
+          - Implemented caching strategies to reduce redundant processing and improve throughput.
+          - Managed concurrent TTS generation and media composition workflows.
+
+      - name: Iron Spider
+        start_date: 2025-06
+        end_date: present
+        summary: >
+          Developed a modular web scraping framework in Rust, focusing on scalable
+          data collection, pipeline-based processing, and concurrent execution.
+        highlights:
+          - Designed a pluggable architecture for crawling, scheduling, and data processing components.
+          - Built a concurrent execution model for handling large numbers of requests efficiently.
+          - Implemented pipeline-based data processing with configurable execution flow.
+          - Developed a TUI for monitoring system activity and request statistics in real time.
+          - Enabled flexible configuration to coordinate multiple crawlers and processing pipelines.
+
+    Experience:
+      - company: Codelink
+        position: DevOps Engineer
+        start_date: 2025-03
+        end_date: present
+        highlights:
+          - Migrated multi-cloud infrastructure (Azure, AWS, GCP) into Terraform-managed environments.
+          - Designed and deployed internal VPN infrastructure using WireGuard for secure communication.
+          - Built centralized dashboards for monitoring system usage and cost across platforms.
+          - Designed CI/CD pipelines and improved development workflows across teams.
+          - Implemented a proxy layer bridging event-driven systems (Dapr) with REST-based services.
+
+      - company: Netcompany - NLP (Nordea Life & Pension)
+        position: Consultant
+        start_date: 2023-01
+        end_date: 2025-02
+        highlights:
+          - Contributed to migration of distributed systems from AWS to Azure.
+          - Designed Terraform modules to standardize infrastructure provisioning.
+          - Worked on large-scale systems involving networking, identity management, and service integration.
+          - Supported communication between heterogeneous systems (HTTP services, event-driven components).
+          - Operated across 200+ subscriptions using Landing Zone architecture.
+
+      - company: Netcompany - FlexDanmark
+        position: Consultant
+        start_date: 2022-06
+        end_date: 2023-01
+        highlights:
+          - Built asynchronous data processing tools to synchronize large-scale role mappings.
+          - Integrated identity and access management systems using SSO and OIDC.
+          - Designed workflows to transform unstructured specifications into structured configurations.
+          - Improved maintainability and consistency of system-wide role mappings.
+
+    Certifications:
+      - bullet: "AZ-900 – Microsoft Azure Fundamentals"
+      - bullet: "IELTS Academic – Overall Band 6.5"
+
+    Activities:
+      - company: UIT Competitive Programming Contest
+        position: System Operator
+        start_date: 2019-09
+        end_date: 2020-12
+        highlights:
+          - Deployed and maintained contest infrastructure using Docker and Domjudge.
+          - Ensured system reliability during live contests.
+          - Automated participant data import and configuration.
