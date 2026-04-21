@@ -45,8 +45,8 @@ design:
       section_titles: false
 
   links:
-    underline: false
-    show_external_link_icon: false
+    underline: true
+    show_external_link_icon: true
 
   header:
     alignment: left

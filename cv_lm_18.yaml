@@ -12,10 +12,10 @@ cv:
     Summary:
       - >
         Engineer with 3+ years of experience working on distributed systems and
-        infrastructure across multi-cloud environments. Experienced in building
-        backend systems, data processing pipelines, and scalable architectures.
-        Particularly interested in system design, distributed applications, and
-        efficient data processing at scale.
+        large-scale infrastructure in multi-cloud environments. Experienced in designing,
+        building, and operating production systems with a focus on reliability, scalability,
+        and system-level behavior. Particularly interested in distributed systems, system design,
+        and efficient data processing at scale.
 
     Technical Skills:
       - label: Programming
@@ -39,8 +39,7 @@ cv:
           - "GPA: 8.00/10.00"
 
     Projects:
-      - company: UnitD
-        position: Developer
+      - name: "[UnitD](https://github.com/vanviethieuanh/unitd)"
         start_date: 2026-02
         end_date: present
         summary: >
@@ -55,8 +54,20 @@ cv:
           - Replaced ad-hoc scripting approaches with structured and validated configurations.
           - Explored system configuration as a structured transformation process.
 
-      - company: Personal Homelab – Web Novel Audio Project
-        position: System Engineer & Developer
+      - name: "[Iron Spider](https://github.com/vanviethieuanh/iron-spider)"
+        start_date: 2025-06
+        end_date: present
+        summary: >
+          Developed a modular web scraping framework in Rust, focusing on extensible
+          architecture, concurrent execution, and pipeline-based data processing.
+        highlights:
+          - Designed a modular architecture with pluggable components for crawling and processing.
+          - Implemented concurrent execution for scalable request handling.
+          - Built a pipeline system for structured data transformation.
+          - Developed a terminal-based interface for monitoring and debugging.
+          - Enabled flexible configuration to compose multiple workflows dynamically.
+
+      - name: Web Novel Audio Pipeline
         start_date: 2025-01
         end_date: present
         summary: >
@@ -70,20 +81,6 @@ cv:
           - Implemented caching mechanisms based on content hashing to optimize performance.
           - Managed distributed workloads using a hybrid cluster (local + cloud VM).
 
-      - company: Iron Spider
-        position: Developer
-        start_date: 2025-06
-        end_date: present
-        summary: >
-          Developed a modular web scraping framework in Rust, focusing on extensible
-          architecture, concurrent execution, and pipeline-based data processing.
-        highlights:
-          - Designed a modular architecture with pluggable components for crawling and processing.
-          - Implemented concurrent execution for scalable request handling.
-          - Built a pipeline system for structured data transformation.
-          - Developed a terminal-based interface for monitoring and debugging.
-          - Enabled flexible configuration to compose multiple workflows dynamically.
-
     Experience:
       - company: Codelink
         position: DevOps Engineer
@@ -92,7 +89,7 @@ cv:
         highlights:
           - Migrated multi-cloud infrastructure (Azure, AWS, GCP) into Terraform-managed environments.
           - Designed and deployed internal VPN infrastructure using WireGuard with monitoring and automation.
-          - Built centralized dashboards for cost and usage monitoring across cloud platforms.
+          - Built centralized observability dashboards for cost and resource usage across distributed cloud infrastructure systems.
           - Designed CI/CD pipelines and improved development workflows across teams.
           - Designed and implemented a proxy layer to bridge event-driven architectures (Dapr) with legacy REST-based applications.
 
@@ -118,7 +115,7 @@ cv:
           - Improved maintainability of role configuration by introducing structured naming and mapping conventions.
 
     Certifications:
-      - bullet: "AZ-900 – Microsoft Azure Fundamentals"
+      - bullet: "[AZ-900 – Microsoft Azure Fundamentals](https://learn.microsoft.com/api/credentials/share/en-us/VnVitHiuAnh-0341/84A11BADA95134F7?sharingId=90ACEA26754A2F09)"
       - bullet: "IELTS Academic – Overall Band 6.5"
 
     Activities:
